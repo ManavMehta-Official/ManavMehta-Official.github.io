@@ -33,3 +33,9 @@ ul li a:hover{
     background-color: white;
     color: black;
 }
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
