@@ -45,3 +45,8 @@ ul li a:hover{
     max-width: 1200px;
     margin: auto;
 }
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
