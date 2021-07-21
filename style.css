@@ -15,3 +15,7 @@ ul{
     float: right;
     list-style-type: none;
 }
+
+ul li{
+    display: inline-block;
+}
