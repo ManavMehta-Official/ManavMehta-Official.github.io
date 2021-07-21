@@ -30,6 +30,6 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: white;
+    background-color: blue;
     color: black;
 }
