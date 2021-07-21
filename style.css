@@ -39,3 +39,8 @@ ul li a:hover{
     width: 100px;
     height: auto;
 }
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
