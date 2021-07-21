@@ -37,6 +37,7 @@ ul li a:hover{
 .logo img{
     float: left;
     width: 100px;
+    border-radius: 50px;
     height: auto;
 }
 
