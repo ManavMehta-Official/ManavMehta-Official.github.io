@@ -22,7 +22,7 @@ a{
 }
 
 a:hover{
-    opacity: 1;
+    text-decoration: underline;
 }
 
 header{
@@ -156,7 +156,7 @@ footer{
 footer ul{
     display: flex;
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 footer ul li{
@@ -173,6 +173,19 @@ footer ul li:last-child{
 
 footer p{
     font-family: serif;
-    font-size:10px;
+    font-size:13px;
     text-transform: uppercase;
+}
+.contact{
+    border: 2px solid grey;
+    padding: 2px;
+    color: black;
+    background-color: grey;
+    border-radius: 3%;
+    box-shadow: 2px 2px darkgray;
+
+}
+
+.contact:hover{
+    text-decoration: none;
 }
