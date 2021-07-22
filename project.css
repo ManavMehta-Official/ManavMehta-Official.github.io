@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul, nav{
+    list-style: none;
+    font-family: helvetica;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    align-items: center;
+    color: white;
+    padding: 35px 100px 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header nav{
+    display: flex;
+}
+
+header nav li{
+    margin: 0 15px;
+    color: white;
+}
+
+header nav li:first-child{
+    margin-left: 0;
+}
+
+header nav li:last-child{
+    margin-right: 0;
+}
+
+.title{
+    font-family: sans-serif;
+    font-size: 30px;
+    left: 20;
+}
+
+@media(max-width:1000px){
+    header{
+        padding: 20px 50px;
+    }
+}
+
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    header h2{
+        margin-bottom: 15px;
+    }
+}
+
+.contact{
+    border: 2px solid grey;
+    padding: 2px;
+    color: black;
+    background-color: grey;
+    border-radius: 3%;
+    box-shadow: 2px 2px darkgray;
+
+}
+
+.contact:hover{
+    text-decoration: none;
+}
+
+.cover{
+    top: 0;
+    background-color: transparent;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.cover .background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+    background-size: cover;
+    background-color: #1A77C1;
+    box-shadow: 2px 2px;
+}
+
+.cover h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    margin-top: 250px;
+    font-size: 100px;
+    text-shadow: 7px 5px 5px rgba(0, 0, 0, 0.808)
+
+}
+
