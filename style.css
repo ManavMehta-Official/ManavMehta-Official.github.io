@@ -97,7 +97,7 @@ section{
     height: 100%;
     z-index: -1;
     background-size: cover;
-    background-color: #1A77C1;
+    background-color: black;
 }
 
 .cover .background-image:after{
@@ -173,13 +173,11 @@ footer p{
     text-transform: uppercase;
 }
 .contact{
-    border: 2px solid grey;
-    padding: 2px;
+    border: 0;
+    padding: 10px;
     color: black;
-    background-color: grey;
-    border-radius: 3%;
-    box-shadow: 2px 2px darkgray;
-
+    background-color: whitesmoke;
+    border-radius: 30px;
 }
 
 .contact:hover{
