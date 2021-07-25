@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    background-color: rgb(31, 30, 30); 
+    opacity: 100%;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(199, 195, 195, 0.774); 
+  }
+
+
 html{
     scroll-behavior: smooth;
 }
