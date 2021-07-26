@@ -27,6 +27,8 @@ html{
     box-sizing: border-box;
 }
 
+
+
 ul, nav{
     list-style: none;
     font-family: helvetica;
@@ -122,6 +124,8 @@ header nav li:last-child{
     z-index: -1;
     background-size: cover;
     background-color: black;
+    box-shadow: 2px 2px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.808);
 }
 
 .banner .background-image:after{
@@ -151,12 +155,39 @@ header nav li:last-child{
 
 .banner .banner-me{
     position: absolute;
+    margin-top: 25px;
     top: 40%;
     left: 5%;
 }
 
-
-.test{
+.about-me h1{
     position: absolute;
-    top: 110%;
+    top: 100%;
+    font-family: sans-serif;
+    left: 40%;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+.about-me p{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 20%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+.about-me img{
+    width: 50%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 30%;
+}
+
+.about-me .p2{
+    position: absolute;
+    float: left;
+    left: 0;
 }
