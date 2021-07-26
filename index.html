@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
     <head>
         <!--Meta Tags-->
         <meta charset="utf-8">
@@ -20,7 +21,7 @@
 
 
     <body>
-
+        <div class="cursor"></div>
         <!--Header & Navigation Bar-->
         <header>
             <h2 class="title">ManavMehta-Official Website</h2>
@@ -36,11 +37,10 @@
 
         <!--Section(Cover) Main View-->
         <section id="cover" class="cover">
-        <div class="background-image" style="background-image: url('cover.png')"></div>
+        <div class="background-image" style="background-image: url('cover.jpeg')"></div>
             <h1>Manav Mehta</h1>
             <h3><i>-Programmer and Developer</i><br></h3>
         </section>
-        
         
         <!--Footer(Bottom Screen)-->
         <footer>
@@ -55,4 +55,12 @@
             <p>&copy;2021 Manav Mehta<p>
         </footer>
     </body>
+
+<script>
+    const cursor = document.querySelector('.cursor');
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+    })
+</script>
 </html>
