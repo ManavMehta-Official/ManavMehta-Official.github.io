@@ -14,6 +14,7 @@
         <script src="https://kit.fontawesome.com/e4e5626c83.js" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 
         <!--Page/Tab Title-->
         <title>Home | ManavMehta-Official</title>
@@ -56,11 +57,12 @@
         </footer>
     </body>
 
-<script>
-    const cursor = document.querySelector('.cursor');
-    document.addEventListener('mousemove', (e) => {
-        cursor.style.left = e.pageX + 'px';
-        cursor.style.top = e.pageY + 'px';
-    })
-</script>
+<script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 2,
+            removeDefaultCursor: true,
+            color: "#fff"
+        })
+    </script>
 </html>
