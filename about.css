@@ -221,7 +221,7 @@ aside{
     width: 30%;
     background-image: url('aside.jpeg');
     border: 2px solid grey;
-
+    box-shadow: 10px 20px 30px 20px rgba(78, 74, 74, 0.808);
 }
 
 aside p{
