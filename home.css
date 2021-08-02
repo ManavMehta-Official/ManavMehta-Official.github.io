@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 1rem 8rem;
+}
+
+.navbar .navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Homemade Apple';
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: rgb(167, 164, 164);
+}
+
+#navbarSupportedContent > button{
+    background-color: rgb(28, 156, 28);
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    color: white;
+}
+
+#navbarSupportedContent > button:hover{
+    color: black;
+}
