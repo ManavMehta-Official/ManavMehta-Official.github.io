@@ -25,13 +25,17 @@
 }
 
 #navbarSupportedContent > button{
-    background-color: rgb(28, 156, 28);
+    background-color: white;
+    border: 2px solid rgb(30, 33, 37);
     font-weight: 600;
     padding: 0.4rem 1.4rem;
     border-radius: 30px;
-    color: white;
+    color: black;
+    box-shadow: inset 0 0 0 0 rgb(28, 156, 28);
+    transition: ease-out 0.3s;
 }
 
 #navbarSupportedContent > button:hover{
-    color: black;
+    box-shadow: inset 150px 0 0 0 rgb(28, 156, 28);
+    color: white;
 }
