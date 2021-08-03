@@ -24,6 +24,10 @@
     color: rgb(167, 164, 164);
 }
 
+#navbarSupportedContent > ul > li:nth-child(1) > a{
+    border-bottom: 3px solid white;
+}
+
 #navbarSupportedContent > button{
     background-color: white;
     border: 2px solid rgb(30, 33, 37);
@@ -38,6 +42,10 @@
 #navbarSupportedContent > button:hover{
     box-shadow: inset 150px 0 0 0 rgb(28, 156, 28);
     color: white;
+}
+
+header .navbar .nav-item .diabled{
+    color: black;
 }
 
 
