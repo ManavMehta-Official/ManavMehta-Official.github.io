@@ -2,6 +2,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 5px;
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: rgb(30, 33, 37); 
+    border-radius: 0px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #525151; 
 }
 
 .navbar{
@@ -12,6 +38,7 @@
     font-size: 2rem;
     font-weight: 700;
     font-family: 'Homemade Apple';
+    overflow-y: hidden;
 }
 
 #navbarSupportedContent > ul > li:nth-child(n) > a{
@@ -60,7 +87,7 @@ header .navbar .nav-item .diabled{
     background: url('banner.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 80%;
+    height: 100%;
 }
 
 
@@ -75,9 +102,133 @@ header .navbar .nav-item .diabled{
 
 .banner .parallax h3{
     position: absolute;
-    top: 55%;
+    top: 65%;
     margin-left: 4%;
     color: white;
     font-size: 2.5rem;
 }
 
+
+.p1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-me h1{
+    font-size: 4rem;
+}
+
+.about-me .description{
+    color: rgb(133, 131, 131);
+    font-family: serif;
+}
+
+.about-me h2{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-size: 2.3rem;
+}
+
+.about-me .para{
+    margin-left: 5%;
+    font-size: 1.3rem;
+    line-height: 50px;
+    color: rgb(133, 131, 131);
+    font-family: sans-serif;
+}
+
+.about-me img{
+    border-radius: 30px;
+}
+
+hr{
+    width: 80%;
+}
+
+.about-me .p2{
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+
+.about-me .p2{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.achievements h1{
+    font-size: 4rem;
+}
+
+.achievements .description{
+    color: rgb(133, 131, 131);
+    font-family: serif;
+}
+
+.carousel{
+    width: 80%;
+    height: 30%;
+    background-color: rgb(245, 245, 245);
+}
+
+footer{
+    background-color: rgb(30, 33, 37);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.footer-heading-manav{
+    margin-top: 2%;
+    margin-left: 5%;
+    color: white;
+    font-family: 'Homemade Apple';
+    overflow-y: hidden;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+footer h4{
+    text-decoration: underline;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer #navbarSupportedContent > button{
+    background-color: white;
+    border: 2px solid rgb(30, 33, 37);
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 10px;
+    color: black;
+    box-shadow: inset 0 0 0 0 rgb(28, 156, 28);
+    transition: ease-out 0.3s;
+}
+
+footer #navbarSupportedContent > button:hover{
+    box-shadow: inset 0 100px 0 0 rgb(28, 156, 28);
+    color: white;
+}
+
+footer #navbarSupportedContent > ul > li:nth-child(1) > a{
+    border: 0;
+}
+
+footer hr{
+    width: 80%;
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-size: 11px;
+}
