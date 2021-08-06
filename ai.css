@@ -194,9 +194,6 @@ a {
     background-color: #f5f5f5;
 }
 
-
-
-
 hr{
     color: black;
     width: 100%;
@@ -232,11 +229,6 @@ hr{
     border-radius: 30px;
 }
 
-.dashboard-icon{
-    padding: 10px;
-    background-color: rgb(255, 217, 0);
-    border-radius: 30px;
-}
 
 #card2 .card-title{
     font-weight: bold;
@@ -248,12 +240,6 @@ hr{
     border-radius: 30px;
 }
 
-.total-icon{
-    padding: 10px;
-    background-color: black;
-    border-radius: 30px;
-    color: white;
-}
 
 #card3 .card-title{
     font-weight: bold;
@@ -265,12 +251,6 @@ hr{
     border-radius: 30px;
 }
 
-.popular-icon{
-    padding: 10px;
-    background-color: rgb(23, 105, 233);
-    color: white;
-    border-radius: 30px;
-}
 
 #card4 .card-title{
     font-weight: bold;
@@ -282,12 +262,6 @@ hr{
     border-radius: 30px;
 }
 
-.video-icon{
-    padding: 10px;
-    background-color: red;
-    color: white;
-    border-radius: 30px;
-}
 
 section{
     margin-bottom: 5%;
@@ -301,19 +275,6 @@ section{
     box-shadow: 0px 0px 10px 1px rgba(133, 133, 134, 0.822);
 }
 
-#card-about img{
-    border-radius: 30px;
-    margin-top: 5%;
-}
-
-.carousel{
-    border-radius: 30px;
-    
-}
-
-.carousel-inner{
-    border-radius: 50px;
-}
 
 header{
     border-bottom: 2px solid black;
@@ -330,11 +291,20 @@ header{
     padding: 10px;
 }
 
-.sub-para-total{
-    font-size: 1.8rem;
-    font-weight: 600;
+.ai-icon{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
 }
 
-.carousel{
-    width: 80%;
+img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
+
+.card-text{
+    line-height: 40px;
+}
+
+
