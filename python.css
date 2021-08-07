@@ -7,7 +7,6 @@
 }
 
 
-
 :root {
     --header-height: 3rem;
     --nav-width: 68px;
@@ -212,6 +211,7 @@ hr{
 
 .card{
     border-radius: 30px;
+    margin-bottom: 10%;
 }
 
 .card:hover{
