@@ -1,0 +1,185 @@
+/* {=========//  GENERAL-SECTIONS \\=========} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(252, 252, 252);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 5px;
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: rgb(30, 33, 37); 
+    border-radius: 0px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #525151; 
+}
+
+
+
+/* {=========//  GLOBAL_DECLERATIONS  \\=========} */
+
+hr{
+    width: 75%;
+}
+
+
+
+
+/* {=========//  NAVIGATION-BAR  \\=========} */
+
+
+.navbar .navbar-brand{
+    font-family: 'Homemade Apple';
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.navbar{
+    padding: 1rem 1.7rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 1.5rem;
+    margin-top: 5px;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: rgb(167, 164, 164);
+}
+
+#navbarSupportedContent > button{
+    margin-left: 1.5rem;
+    margin-top: 5px;
+}
+
+.navbar-button{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+/* {=========//  HERO-SECTION  \\=========} */
+
+
+.hero{
+    margin-top: 7%;
+    padding: 10px;
+}
+
+.hero .intro{
+    margin-top: 8%;
+}
+
+.hero .intro .hero_title{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.hero .intro .sub_text{
+    font-size: 1.4rem;
+    color: rgb(47, 45, 45);
+}
+
+.hero .pfp{
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 1px rgba(133, 133, 134, 0.822);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+/* {=========//  INTRODUCTION-SECTION  \\=========} */
+
+.introduction{
+    margin-top: 7%;
+    background-color: rgb(248, 248, 248);
+    padding: 2%;
+}
+
+.about-me{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.introduction p{
+    font-family: serif;
+}
+
+.introduction h3{
+    line-height: 45px;
+    font-weight: normal;
+    color: rgb(47, 47, 47)
+}
+
+.introduction img{
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(133, 133, 134, 0.822);
+}
+
+
+
+
+/* {=========//  GALLERY-SECTION  \\=========} */
+
+.gallery{
+    margin-top: 7%;
+    padding: 2%;
+}
+
+.gallery-title{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.gallery p{
+    font-family: serif;
+}
+
+.gallery h3{
+    line-height: 45px;
+    font-weight: normal;
+    color: rgb(47, 47, 47)
+}
+
+.carousel{
+    width: 80%;
+    height: 80%;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
