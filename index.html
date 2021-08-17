@@ -16,6 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     </head>
     <body>
         <header>
@@ -29,6 +30,9 @@
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                         <a class="nav-link disabled" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Work</a>
                         </li>
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,8 +55,8 @@
         <section class="hero">
             <div class="row">
                 <div class="col-sm-6 mx-auto text-center intro">
-                    <h1 class="hero_title" data-aos="fade-right" data-aos-duration="2000">Manav Mehta</h1><br>
-                    <h3 class="sub_text" data-aos="fade-right" data-aos-duration="2000"><i>I'm a programmer specializing in<br> web development and python coding.</i></h3>
+                    <h1 class="hero_title" data-aos="fade-right" data-aos-duration="1500">Manav Mehta</h1><br>
+                    <h3 class="sub_text" data-aos="fade-right" data-aos-duration="3000"><i>I'm a programmer specializing in<br> web development and python coding.</i></h3>
                 </div>
                 <div class="col-sm-6 mx-auto text-center">
                     <img src="pfp-web.png" class="pfp">
@@ -61,20 +65,20 @@
         </section>
 
         <section class="introduction text-center" id="about-me">
-                <h1 class="text-center about-me mt-5 mb-4">About me</h1>
+                <h1 class="text-center about-me mt-5 mb-4" data-aos="zoom-in" data-aos-duration="1500">About me</h1>
                 <p class="text-muted text-center mt-2 mb-3"><i>Do not go where the path may lead, go instead where there is no path and leave a trail. -Ralph Waldo Emerson</i></p>
                 <hr class="mx-auto mt-3">
             <div class="p1 row align-items-center">
                 <div class="content col-lg-6 col-md-6 col-12 p-4">
                     <h3 class="text-center mt-5 ">Hey! My name is Manav Mehta. I'm pretty sure that I already mentioned it above, but I figured it was still worth repeating. You know,  just in case you were not paying attention. So anyway back to the topic. I'm a 15-year-old still in high school waiting to graduate and excel in the field of computer science. I was born in the United States and raised in India. Here at my website, I write about blogs, my skillset and the latest project I've been working on. For most of the projects, the source code is available for free. Oh and feel free to contact me if you want to collab on a project. I'm always available for help!</h3>
                 </div>
-                <div class="content col-lg-6 col-md-6 col-12 p-4">
+                <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="flip-left" data-aos-duration="2000">
                     <img class="img-fluid w-60" src="Me.png">
                 </div>
             </div>
             <hr class="mx-auto mt-5 mb-5">
             <div class="p1 row align-items-center">
-                <div class="content col-lg-6 col-md-6 col-12 p-4">
+                <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="flip-right" data-aos-duration="2000">
                     <img class="img-fluid w-60" src="lang.png">
                 </div>
                 <div class="content col-lg-6 col-md-6 col-12 p-4">
@@ -84,7 +88,7 @@
         </section>
 
         <section class="gallery" id="gallery">
-            <h1 class="text-center gallery-title mt-5 mb-4">Gallery</h1>
+            <h1 class="text-center gallery-title mt-5 mb-4" data-aos="zoom-in" data-aos-duration="1500">Gallery</h1>
             <p class="text-muted text-center mt-2 mb-3"><i>Many of life's failures are people who did not realize how close they were to success when they gave up. -Thomas A. Edison</i></p>
             <hr class="mx-auto mt-3">
             <h3 class="text-center my-4">Gallery basically contains all the pictures of my achievements, hobbies, artwork etc. I hope you get the idea about what it is. Feel free to scroll through the carousel and be amazed by my work! </h3>
@@ -117,40 +121,41 @@
             </div>
         </section>
 
-        <section class="footer">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Manav</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+        <section class="footer mt-5">
+            <footer>
+                <div class="row">
+                    <div class="content col-lg-4 col-md-8 col-12 p-5 mx-auto text-center my1">
+                        <h1 class="footer-title">Manav</h1>
                     </div>
+                    <div class="content col-lg-4 col-md-8 col-12 p-5 mx-auto text-center">
+                            <li>
+                                <a href="https://twitter.com/Manav_0fficial"><i class="bi bi-twitter" role="img" aria-label="Twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/manavmehta.official/"><i class="bi bi-instagram" role="img" aria-label="Instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ManavMehta-Official"><i class="bi bi-github" role="img" aria-label="GitHub"></i></a>
+                            </li> 
+                            <li>
+                                <a href="https://www.reddit.com/user/Manav_Official"><i class="bi bi-reddit" role="img" aria-label="Reddit"></i></a>
+                            </li> 
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCP5U3FyEWKTyzKt8X2VM-Lg"><i class="bi bi-youtube" role="img" aria-label="YouTube"></i></a>
+                            </li> 
+                            <li>
+                                <a href="https://discord.gg/23eMt9tXpN"><i class="bi bi-discord" role="img" aria-label="Discord"></i></a>
+                            </li> 
+                    </div>
+                    <div class="content col-lg-4 col-md-8 col-12 p-5 mx-auto text-center">
+                        <button onclick="location.href = '#';" class="btn btn-outline-success footer-button" type="submit"><i class="bi bi-arrow-up"></i></button>
+                    </div>
+                <hr class="mx-auto">
+                <p class="text-center text-muted">Developed and Designed by Manav Mehta.</p>
+                <p class="text-center text-muted">Copyright &copy; Manav Mehta 2021</p>
                 </div>
-            </nav>
+                
+            </footer>
         </section>
 
 
