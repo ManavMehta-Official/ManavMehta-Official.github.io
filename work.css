@@ -51,6 +51,9 @@ hr{
     border-bottom: 3px solid white;
 }
 
+a{
+    text-decoration: none;
+}
 
 
 
@@ -133,5 +136,86 @@ header .navbar{
 /* {=========//  WORKSPACE  \\=========} */
 
 .workspace{
-    margin-top: 10%;
+    margin-top: 14%;
+    margin: 1%;
+}
+
+.workspace-card{
+    border-radius: 10px;
+}
+
+.projects{
+    margin-left: 2%;
+}
+
+.learn-more{
+    margin-right: 2%;
+}
+
+.workspace .python{
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+
+.workspace p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.py{
+    margin-top: 2%;
+}
+
+.workspace .ai{
+    background-color: rgb(230, 230, 230);
+    border: 5px solid white;
+}
+
+.a-i{
+    margin-top: 2%;
+}
+
+.code{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 40%;
+    transform: rotate3d(3, -3, 0.5, -30deg);
+    box-shadow: 0 0px 10px 1px rgb(186, 187, 189);
+}
+
+.code1{
+    width: 40%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    transform: rotate3d(3, 3, 0.5, 25deg);
+    box-shadow: 0 0px 10px 1px rgb(186, 187, 189);
+}
+
+.ai img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.sec2{
+    background-color: rgb(16, 17, 17);
+}
+
+.sec2 .sec2-title{
+    color: white;
+    margin-top: 5%;
+}
+.sec2 h1{
+    color: white;
+}
+
+.yt-tutorial{
+    color: red;
+}
+
+.yt-tutorial:hover{
+    color: rgb(184, 5, 5);
 }
