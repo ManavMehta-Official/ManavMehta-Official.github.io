@@ -47,6 +47,10 @@ hr{
     width: 75%;
 }
 
+.disabled{
+    border-bottom: 3px solid white;
+}
+
 
 
 
