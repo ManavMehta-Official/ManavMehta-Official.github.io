@@ -88,6 +88,7 @@ header .navbar{
     color: black;
     border: 1px solid black;
     border-radius: 30px;
+    padding: 7px;
 }
 
 
@@ -223,6 +224,7 @@ header .navbar{
 
 .footer hr{
     color: white;
+    width: 90%
 }
 
 .footer p{
