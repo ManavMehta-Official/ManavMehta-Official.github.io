@@ -51,9 +51,23 @@ hr{
     border-bottom: 3px solid white;
 }
 
-a{
+.workspace a{
     text-decoration: none;
+    font-size: 1.3rem;
 }
+
+.workspace a:hover{
+    text-decoration: underline;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+  }
+  
 
 
 
@@ -89,46 +103,18 @@ header .navbar{
 .navbar-button{
     background-color: white;
     color: black;
-    border: 1px solid black;
     border-radius: 30px;
-    padding: 7px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 white;
 }
+
 
 /* {=========//  HERO-SECTION  \\=========} */
 
 
-.hero{
-    margin-top: 7%;
-    padding: 10px;
-    margin-bottom: 10%;
-}
-
-.hero .intro{
-    margin-top: 8%;
-}
-
-.hero .intro .hero_title{
-    font-size: 4rem;
-    font-weight: bolder;
-    margin-bottom: 5%;
-}
-
-.hero .intro .sub_text{
-    font-size: 1.4rem;
-    color: rgb(47, 45, 45);
-}
-
-.hero .pfp{
-    width: 60%;
-    height: auto;
-    border-radius: 100%;
-    box-shadow: 0px 0px 10px 1px rgba(133, 133, 134, 0.822);
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.hero .r{
-    margin-top: 16%;
+.banner{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -140,16 +126,12 @@ header .navbar{
     margin: 1%;
 }
 
+.workspace h1{
+    margin-top: 5%;
+}
+
 .workspace-card{
     border-radius: 10px;
-}
-
-.projects{
-    margin-left: 2%;
-}
-
-.learn-more{
-    margin-right: 2%;
 }
 
 .workspace .python{
@@ -163,53 +145,84 @@ header .navbar{
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
+    font-size: 1.3rem;
 }
 
 .py{
     margin-top: 2%;
+    font-weight: bolder;
+    font-size: 3.5rem;
 }
 
 .workspace .ai{
-    background-color: rgb(230, 230, 230);
+    background: #B2FEFA; 
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+
+
     border: 5px solid white;
 }
 
-.a-i{
+.ai-title{
     margin-top: 2%;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.ai p{
+    font-weight: 600;
 }
 
 .code{
-    margin-top: 15%;
-    margin-bottom: 10%;
-    width: 40%;
-    transform: rotate3d(3, -3, 0.5, -30deg);
-    box-shadow: 0 0px 10px 1px rgb(186, 187, 189);
-}
-
-.code1{
-    width: 40%;
-    margin-top: 15%;
-    margin-bottom: 10%;
-    transform: rotate3d(3, 3, 0.5, 25deg);
-    box-shadow: 0 0px 10px 1px rgb(186, 187, 189);
+    width: 100%;
 }
 
 .ai img{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 80%;
+    width: 100%;
 }
 
-.sec2{
-    background-color: rgb(16, 17, 17);
+/* {=========//  WORKSPACE-LINKS  \\=========} */
+
+.projects{
+    margin-left: 2%;
 }
 
-.sec2 .sec2-title{
-    color: white;
-    margin-top: 5%;
+.projects:hover{
+    color: #0d6efd;
 }
-.sec2 h1{
+
+.learn-more:hover{
+    color: #0d6efd;
+}
+
+
+.learn-more{
+    margin-right: 2%;
+}
+
+
+/* {=========//  YOUTUBE-SECTION  \\=========} */
+
+.yt{
+    background-color: rgb(30, 33, 37);
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.yt h1{
     color: white;
+    font-size: 3.5rem;
+}
+
+.workspace .yt-title{
+    font-size: 5rem;
+    margin-top: 7%;
+    font-weight: bolder;
+}
+
+.yt img{
+    width: 100%;
+    margin: 2%;
 }
 
 .yt-tutorial{
@@ -217,5 +230,27 @@ header .navbar{
 }
 
 .yt-tutorial:hover{
-    color: rgb(184, 5, 5);
+    text-decoration: underline;
+    color: red;
+}
+
+
+/* {=========//  WEB-SECTION  \\=========} */
+
+.web{
+    background: #11998e;  
+    background: -webkit-linear-gradient(to right, #11998e, #38ef7d); 
+    background: linear-gradient(to right, #11998e, #38ef7d); 
+    border-radius: 10px;
+    border: 5px solid white;
+    color: white;
+}
+
+.web .web-title{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.web h1{
+    font-size: 3rem;
 }
