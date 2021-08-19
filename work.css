@@ -254,3 +254,48 @@ header .navbar{
 .web h1{
     font-size: 3rem;
 }
+
+
+
+/* {=========//  FOOTER-SECTION  \\=========} */
+
+.footer{
+    background-color: rgb(30, 33, 37);
+}
+
+.footer h1{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-title{
+    font-family: 'Homemade Apple';
+}
+
+
+.footer li{
+    margin: 0 4%;
+    list-style: none;
+    display: inline;
+}
+
+.footer li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-top: 1%;
+}
+
+.footer hr{
+    color: white;
+    width: 90%
+}
+
+.footer p{
+    font-family: serif;
+}

@@ -229,6 +229,7 @@ header .navbar{
     background-color: white;
     border: 1px solid black;
     color: black;
+    margin-top: 1%;
 }
 
 .footer hr{
@@ -239,3 +240,6 @@ header .navbar{
 .footer p{
     font-family: serif;
 }
+
+
+
