@@ -1,10 +1,11 @@
-<!-- REDIRECTION HTML DOCUMENT -->
 <!DOCTYPE html>
 <html lang="en">
+
+
     <head>
         <title>Manav Mehta</title>
 
-        <meta charset="UTF-8">
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,150 +13,65 @@
         <link rel="icon" href="favicon.png">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+
         <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     </head>
+
+
+
+
     <body>
+        
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="https://manavmehta-official.github.io">Manav</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                        <a class="nav-link disabled" aria-current="page" href="https://manavmehta-official.github.io">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="https://manavmehta-official.github.io/work.html">Work</a>
+                        <a class="nav-link" href="#">Work</a>
                         </li>
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             This Page
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item text-center" href="#about-me">About me</a></li>
+                        <ul class="dropdown-menu text-center" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">A</a></li>
                             <li><hr class="dropdown-divider mx-auto"></li>
-                            <li><a class="dropdown-item text-center" href="#gallery">Gallery</a></li>
+                            <li><a class="dropdown-item" href="#">B</a></li>
+                            <li><hr class="dropdown-divider mx-auto"></li>
+                            <li><a class="dropdown-item" href="#">C</a></li>
                         </ul>
                         </li>
                     </ul>
-                        <button class="btn btn-outline-dark navbar-button" type="submit">Contact me</button>
+                    <button class="btn btn-outline-dark btn-contact" type="submit">Contact Me</button>
                     </div>
                 </div>
             </nav>
         </header>
 
-        
-        <section class="hero">
+
+        <section class="banner p-2">
             <div class="row">
-                <div class="col-sm-6 mx-auto text-center intro">
-                    <h1 class="hero_title" data-aos="fade-right" data-aos-duration="1500">Manav Mehta</h1><br>
-                    <h3 class="sub_text" data-aos="fade-right" data-aos-duration="3000"><i>I'm a programmer specializing in<br> web development and python coding.</i></h3>
+                <div class="col-sm-6 my-auto text-center">
+                    <h1 class="banner-title">Manav Mehta</h1>
+                    <h3 class="banner-sub-text text-muted">&ldquo; I'm a programmer specialising in web development and python programming. &rdquo;</h3>
                 </div>
-                <div class="col-sm-6 mx-auto text-center">
-                    <img src="pfp-web.png" class="pfp">
-                </div>
-            </div>
-        </section>
-
-        <section class="introduction text-center" id="about-me">
-                <h1 class="text-center about-me mt-5 mb-4" data-aos="zoom-in" data-aos-duration="1500">About me</h1>
-                <p class="text-muted text-center mt-2 mb-3"><i>Do not go where the path may lead, go instead where there is no path and leave a trail. -Ralph Waldo Emerson</i></p>
-                <hr class="mx-auto mt-3">
-            <div class="p1 row align-items-center">
-                <div class="content col-lg-6 col-md-6 col-12 p-4">
-                    <h3 class="text-center mt-5 ">Hey! My name is Manav Mehta. I'm pretty sure that I already mentioned it above, but I figured it was still worth repeating. You know,  just in case you were not paying attention. So anyway back to the topic. I'm a 15-year-old still in high school waiting to graduate and excel in the field of computer science. I was born in the United States and raised in India. Here at my website, I write about blogs, my skillset and the latest project I've been working on. For most of the projects, the source code is available for free. Oh and feel free to contact me if you want to collab on a project. I'm always available for help!</h3>
-                </div>
-                <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="flip-left" data-aos-duration="2000">
-                    <img class="img-fluid w-60" src="Me.png">
+                <div class="col-sm-6 text-center">
+                    <img src="pfp-web.png" class="banner-img">
                 </div>
             </div>
-            <hr class="mx-auto mt-5 mb-5">
-            <div class="p1 row align-items-center">
-                <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="flip-right" data-aos-duration="2000">
-                    <img class="img-fluid w-60" src="lang.png">
-                </div>
-                <div class="content col-lg-6 col-md-6 col-12 p-4">
-                    <h3 class="text-center mt-5 ">Well, to be honest, I have a lot of interests. If I have to list them all out, I would need to dedicate a whole webpage about my interests. My main interests are computer science, reading books and writing. I developed an interest in computer science when I was 10 years old, and now I'm 15! In that span of 5 years, I learnt lots of programming languages and gained experience with computers. I learnt so many programming languages that I had to dedicate a full webpage about my skills in those languages. Coming to reading books, I like reading Harry Potter and comics like 'Tintin' and 'Asterix and Obelix'.</h3>
-                </div>
-            </div>
-        </section>
-
-        <section class="gallery" id="gallery">
-            <h1 class="text-center gallery-title mt-5 mb-4" data-aos="zoom-in" data-aos-duration="1500">Gallery</h1>
-            <p class="text-muted text-center mt-2 mb-3"><i>Many of life's failures are people who did not realize how close they were to success when they gave up. -Thomas A. Edison</i></p>
-            <hr class="mx-auto mt-3">
-            <h3 class="text-center my-4">Gallery basically contains all the pictures of my achievements, hobbies, artwork etc. I hope you get the idea about what it is. Feel free to scroll through the carousel and be amazed by my work! </h3>
-
-            <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="cs50x.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="carousel-2.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="carousel-1.png" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-        </section>
-
-        <section class="footer mt-5 py-4">
-            <footer>
-                <div class="row">
-                    <div class=" col-sm-4 p-2 mx-auto text-center">
-                        <h1 class="footer-title">Manav</h1>
-                    </div>
-                    <div class=" col-sm-4 p-2 mx-auto text-center">
-                            <li>
-                                <a href="https://twitter.com/Manav_0fficial" class="twitter"><i class="bi bi-twitter" role="img" aria-label="Twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/manavmehta.official/" class="instagram"><i class="bi bi-instagram" role="img" aria-label="Instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/ManavMehta-Official" class="github"><i class="bi bi-github" role="img" aria-label="GitHub"></i></a>
-                            </li> 
-                            <li>
-                                <a href="https://www.reddit.com/user/Manav_Official" class="reddit"><i class="bi bi-reddit" role="img" aria-label="Reddit"></i></a>
-                            </li> 
-                            <li>
-                                <a href="https://www.youtube.com/channel/UCP5U3FyEWKTyzKt8X2VM-Lg" class="youtube"><i class="bi bi-youtube" role="img" aria-label="YouTube"></i></a>
-                            </li> 
-                            <li>
-                                <a href="https://discord.gg/23eMt9tXpN" class="discord"><i class="bi bi-discord" role="img" aria-label="Discord"></i></a>
-                            </li> 
-                    </div>
-                    <div class=" col-sm-4 p-2 mx-auto text-center my-auto">
-                        <button onclick="location.href = '#';" class="btn btn-outline-dark footer-button" type="submit"><i class="bi bi-arrow-up"></i></button>
-                    </div>
-                <hr class="mx-auto">
-                <p class="text-center text-muted">Developed and Designed by Manav Mehta.</p>
-                <p class="text-center text-muted">Copyright &copy; Manav Mehta 2021</p>
-                </div>
-                
-            </footer>
         </section>
 
 
@@ -180,3 +96,4 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     </body>
 </html> 
+</html>

@@ -1,5 +1,4 @@
-/* {=========//  GENERAL-SECTIONS \\=========} */
-
+/*---{    GLOBAL    }---*/
 
 *{
     margin: 0;
@@ -9,237 +8,81 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+}
+
+.nav-item{
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 body{
-    background-color: rgb(252, 252, 252);
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 5px;
-}
-  
-
-::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-radius: 5px;
-}
-   
-
-::-webkit-scrollbar-thumb {
-    background: rgb(30, 33, 37); 
-    border-radius: 0px;
-}
-  
-
-::-webkit-scrollbar-thumb:hover {
-    background: #525151; 
-}
 
 
-
-/* {=========//  GLOBAL_DECLERATIONS  \\=========} */
-
-hr{
-    width: 75%;
-}
-
-.disabled{
-    border-bottom: 3px solid white;
-}
-
-img {
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-select: none;
-  }
-
-
-
-
-/* {=========//  NAVIGATION-BAR  \\=========} */
-
+/*---{    NAVIGATION-BAR    }---*/
 
 .navbar .navbar-brand{
+    font-size: 1.4rem;
     font-family: 'Homemade Apple';
-    font-weight: bolder;
-    font-size: 1.5rem;
+    margin-left: 2%;
 }
 
-header .navbar{
-    padding: 1rem 1.7rem;
+.navbar .navbar-brand:hover{
+    color: rgb(154, 155, 157);
+    transform: ease-in-out 0.3s;
 }
 
-#navbarSupportedContent > ul > li:nth-child(n) > a{
-    color: white;
-    font-size: 1.1rem;
-    padding: 0 1.5rem;
-    margin-top: 5px;
-}
-
-#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
-    color: rgb(167, 164, 164);
-}
-
-#navbarSupportedContent > button{
-    margin-left: 1.5rem;
-    margin-top: 5px;
-}
-
-.navbar-button{
-    background-color: white;
+.btn-contact{
     color: black;
     border-radius: 30px;
-    font-weight: bold;
-    box-shadow: inset 0 0 0 0 white;
+    margin-right: 2%;
+    margin-left: 4%;
+    background-color: white;
+    font-weight: 500;
 }
 
-
-
-
-/* {=========//  HERO-SECTION  \\=========} */
-
-
-.hero{
-    margin-top: 7%;
-    padding: 10px;
-}
-
-.hero .intro{
-    margin-top: 8%;
-}
-
-.hero .intro .hero_title{
-    font-size: 4rem;
-    font-weight: bolder;
-    margin-bottom: 5%;
-}
-
-.hero .intro .sub_text{
-    font-size: 1.4rem;
-    color: rgb(47, 45, 45);
-}
-
-.hero .pfp{
-    width: 50%;
-    height: auto;
-    border-radius: 100%;
-    box-shadow: 0px 0px 10px 1px rgba(133, 133, 134, 0.822);
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-
-
-/* {=========//  INTRODUCTION-SECTION  \\=========} */
-
-.introduction{
-    margin-top: 7%;
-    background-color: rgb(248, 248, 248);
-    padding: 2%;
-}
-
-.about-me{
-    font-weight: bolder;
-    font-size: 3rem;
-}
-
-.introduction p{
-    font-family: serif;
-}
-
-.introduction h3{
-    line-height: 45px;
-    font-weight: normal;
-    color: rgb(47, 47, 47)
-}
-
-.introduction img{
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px 0px rgba(133, 133, 134, 0.822);
-}
-
-
-
-
-/* {=========//  GALLERY-SECTION  \\=========} */
-
-.gallery{
-    margin-top: 7%;
-    padding: 2%;
-}
-
-.gallery-title{
-    font-weight: bolder;
-    font-size: 3rem;
-}
-
-.gallery p{
-    font-family: serif;
-}
-
-.gallery h3{
-    line-height: 45px;
-    font-weight: normal;
-    color: rgb(47, 47, 47)
-}
-
-.carousel{
-    width: 80%;
-    height: 80%;
-}
-
-.carousel-inner{
-    border-radius: 30px;
-}
-
-/* {=========//  FOOTER-SECTION  \\=========} */
-
-.footer{
+.dropdown-menu{
+    border-top: 2px solid rgb(226, 226, 226);
     background-color: rgb(30, 33, 37);
 }
 
-.footer h1{
+.dropdown-item{
+    color: rgb(154, 155, 157);
+}
+
+.dropdown-item:hover{
     color: white;
-    font-size: 1.5rem;
+    background-color: rgb(30, 33, 37);
 }
 
-.footer-title{
-    font-family: 'Homemade Apple';
-}
-
-
-.footer li{
-    margin: 0 4%;
-    list-style: none;
-    display: inline;
-}
-
-.footer li a{
+.dropdown-divider{
     color: white;
-    text-decoration: none;
-}
-
-.footer-button{
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-    margin-top: 1%;
-}
-
-.footer hr{
-    color: white;
-    width: 90%
-}
-
-.footer p{
-    font-family: serif;
+    width: 75%;
 }
 
 
+
+/*---{    BANNER-SECTION    }---*/
+
+.banner{
+    margin-top: 5%;
+}
+
+.banner-title{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.banner-sub-text{
+    margin-top: 5%;
+}
+
+.banner-img{
+    margin-top: 10%;
+    width: 50%;
+    border-radius: 100%;
+    box-shadow: 0 0 10px 0 rgb(30 , 33, 37);
+}
 
