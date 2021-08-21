@@ -19,6 +19,29 @@ body{
     overflow-x: hidden;
 }
 
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+  }
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background-color: rgb(30, 33, 37)
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: rgb(177, 177, 177);
+    border-radius: 5px; 
+}
+
 
 
 /*---{    NAVIGATION-BAR    }---*/
@@ -27,11 +50,6 @@ body{
     font-size: 1.4rem;
     font-family: 'Homemade Apple';
     margin-left: 2%;
-}
-
-.navbar .navbar-brand:hover{
-    color: rgb(154, 155, 157);
-    transform: ease-in-out 0.3s;
 }
 
 .btn-contact{
@@ -43,18 +61,26 @@ body{
     font-weight: 500;
 }
 
+.btn-contact:hover{
+    color: rgb(250, 250 , 250);
+    background-color: rgb(30, 33, 37);
+}
+
 .dropdown-menu{
     border-top: 2px solid rgb(226, 226, 226);
     background-color: rgb(30, 33, 37);
 }
 
+
 .dropdown-item{
     color: rgb(154, 155, 157);
+    cursor: pointer;
 }
 
 .dropdown-item:hover{
     color: white;
     background-color: rgb(30, 33, 37);
+    cursor: pointer;
 }
 
 .dropdown-divider{
@@ -62,27 +88,215 @@ body{
     width: 75%;
 }
 
+.navbar-toggler{
+    background-color: rgb(30, 33, 37);
+    border: none;
+}
+
+.navbar-toggler-icon:active{
+    border: 1px solid rgb(30, 33, 37);
+}
+
+
+
 
 
 /*---{    BANNER-SECTION    }---*/
 
 .banner{
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .banner-title{
     font-size: 6rem;
     font-weight: bolder;
+    margin-top: 5%;
 }
 
 .banner-sub-text{
     margin-top: 5%;
+    font-family: 'Patrick Hand';
 }
 
 .banner-img{
     margin-top: 10%;
-    width: 50%;
+    width: 60%;
     border-radius: 100%;
-    box-shadow: 0 0 10px 0 rgb(30 , 33, 37);
+    box-shadow: 0 0 15px 0 rgb(30 , 33, 37);
+}
+
+
+
+/*---{    ABOUT-ME-SECTION    }---*/
+
+.about-me{
+    background-color: rgb(30, 33, 37);
+}
+
+.about-me-title{
+    margin-top: 10%;
+    color: white;
+    font-size: 8rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.vl-p{
+    border-left: 8px solid rgba(100, 100, 100, 0.733);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.vl-h{
+    border-right: 8px solid rgba(100, 100, 100, 0.733);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.about-me p{
+    color: white;
+    margin: 5%;
+    font-size: 1.3rem;
+}
+
+
+
+/*---{    SKILLS-SECTION    }---*/
+
+.skills-title{
+    font-size: 8rem;
+    margin-top: 10%;
+    color: black;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.skills p{
+    color: black;
+    margin: 5%;
+    font-size: 1.3rem;
+}
+
+.table{
+    width: 90%;
+    border: 1px solid rgb(30, 33, 37);
+}
+
+.table td{
+    font-weight: 500;
+}
+
+.skills-table{
+    background-color: rgb(30, 33, 37);
+    padding: 1%;
+}
+
+/*---{    SKILLS-TABLE-ICONS-SECTION    }---*/
+
+.bxs-star{
+    color: rgb(244, 197, 48);
+}
+
+.bxl-html5{
+    color: rgb(232, 99, 51);
+}
+
+.bxl-javascript{
+    color: rgb(238, 215, 57);
+}
+
+
+/*---{    SKILLS-TABLE-SECTION    }---*/
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid rgb(30, 33, 37);
+}
+table * {
+    position: relative;
+}
+table td, table th {
+    padding-left: 8px;
+}
+table thead tr {
+    height: 60px;
+    background: rgb(30, 33, 37);
+    font-size: 16px;
+}
+table thead th{
+    color: white;
+}
+table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #e3f1d5;
+}
+table tbody tr:last-child {
+    border: 0;
+}
+table td, table th {
+    text-align: left;
+}
+table td.l, table th.l {
+    text-align: right;
+}
+table td.c, table th.c {
+    text-align: center;
+}
+table td.r, table th.r {
+    text-align: center;
+}
+@media screen and (max-width: 35.5em) {
+    table {
+        display: block;
+   }
+    table > *, table tr, table td, table th {
+        display: block;
+   }
+    table thead {
+        display: none;
+   }
+    table tbody tr {
+        height: auto;
+        padding: 8px 0;
+   }
+    table tbody tr td {
+        padding-left: 45%;
+        margin-bottom: 12px;
+   }
+    table tbody tr td:last-child {
+        margin-bottom: 0;
+   }
+    table tbody tr td:before {
+        position: absolute;
+        font-weight: 700;
+        width: 40%;
+        left: 10px;
+        top: 0;
+   }
+    table tbody tr td:nth-child(1):before {
+        content: "Code";
+   }
+    table tbody tr td:nth-child(2):before {
+        content: "Stock";
+   }
+    table tbody tr td:nth-child(3):before {
+        content: "Cap";
+   }
+    table tbody tr td:nth-child(4):before {
+        content: "Inch";
+   }
+    table tbody tr td:nth-child(5):before {
+        content: "Box Type";
+   }
 }
 
