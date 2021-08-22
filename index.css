@@ -228,7 +228,7 @@ img {
 }
 
 .projects-btn{
-    color: white;
+    color: #0d6efd;
     font-weight: 500;
     margin-right: 2%;
     margin-bottom: 5%;
@@ -239,7 +239,7 @@ img {
 .projects-btn:hover{
     text-decoration: underline;
     cursor: pointer;
-    color: white;
+    color: #0d6efd;
 }
 
 .github-btn{
@@ -353,6 +353,14 @@ table td.r, table th.r {
 
 /*---{    GALLERY-SECTION    }---*/
 
+.gallery{
+    padding: 2%;
+}
+
+.gallery-hr{
+    width: 75%;
+    margin-bottom: 5%;
+}
 
 .gallery h1{
     font-size: 5rem;
@@ -361,9 +369,27 @@ table td.r, table th.r {
     margin-bottom: 2%;
 }
 
-.carousel{
-    width: 80%;
+.card{
+    border: 1px solid rgba(30, 33, 37);
+    margin-bottom: 2%;
 }
+
+.card-body{
+    margin-top: 0.2%;
+    background-color: rgb(30, 33, 37);
+    color: white;
+}
+
+
+.gallery a{
+    text-decoration: none;
+}
+
+.gallery a:hover{
+    text-decoration: underline;
+    color: #0d6efd;
+}
+
 
 
 
