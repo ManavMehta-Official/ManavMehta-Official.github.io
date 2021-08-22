@@ -28,21 +28,17 @@ img {
     user-select: none;
   }
 
-::-webkit-scrollbar {
-    width: 7px;
-}
-  
-
-::-webkit-scrollbar-track {
-    background-color: rgb(30, 33, 37)
-}
-   
-
-::-webkit-scrollbar-thumb {
-    background: rgb(177, 177, 177);
-    border-radius: 5px; 
+::-webkit-scrollbar{
+    width: thin;
+    background-color: rgb(30, 33, 37);
 }
 
+::-webkit-scrollbar-thumb{
+    border: 5px solid transparent;
+    border-radius: 100px;
+    background-color: #969696;
+    background-clip: content-box;
+}
 
 
 /*---{    NAVIGATION-BAR    }---*/
@@ -196,9 +192,10 @@ img {
 }
 
 .skill-table-pl{
+    margin-top: 2%;
     color: white;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     margin-bottom: 5%;
 }
 
@@ -208,16 +205,16 @@ img {
     color: rgb(244, 197, 48);
 }
 
-.bxl-html5{
+.fa-html5{
     color: rgb(232, 99, 51);
 }
 
-.bxl-javascript{
+.fa-js{
     color: rgb(238, 215, 57);
     background-color: black;
 }
 
-.bxl-css3{
+.fa-css3-alt{
     color: rgb(36, 87, 232);
 }
 
@@ -225,7 +222,7 @@ img {
     color: rgb(250, 140, 50);
 }
 
-.bxl-python{
+.fa-python{
     color: rgb(8, 97, 146);
 }
 
