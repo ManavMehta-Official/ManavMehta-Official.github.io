@@ -194,6 +194,13 @@ img {
     padding: 1%;
 }
 
+.skill-table-pl{
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 5%;
+}
+
 /*---{    SKILLS-TABLE-ICONS-SECTION    }---*/
 
 .bxs-star{
@@ -206,6 +213,19 @@ img {
 
 .bxl-javascript{
     color: rgb(238, 215, 57);
+    background-color: black;
+}
+
+.bxl-css3{
+    color: rgb(36, 87, 232);
+}
+
+.fa-swift{
+    color: rgb(250, 140, 50);
+}
+
+.bxl-python{
+    color: rgb(8, 97, 146);
 }
 
 
@@ -284,19 +304,16 @@ table td.r, table th.r {
         top: 0;
    }
     table tbody tr td:nth-child(1):before {
-        content: "Code";
+        content: "ICON";
    }
     table tbody tr td:nth-child(2):before {
-        content: "Stock";
+        content: "LANGUAGE";
    }
     table tbody tr td:nth-child(3):before {
-        content: "Cap";
+        content: "EXPERIENCE";
    }
     table tbody tr td:nth-child(4):before {
-        content: "Inch";
-   }
-    table tbody tr td:nth-child(5):before {
-        content: "Box Type";
+        content: "SKILL RATING";
    }
 }
 
