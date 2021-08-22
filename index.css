@@ -241,6 +241,7 @@ table {
     margin: 0 auto;
     position: relative;
     border: 1px solid rgb(30, 33, 37);
+    margin-bottom: 5%;
 }
 table * {
     position: relative;
