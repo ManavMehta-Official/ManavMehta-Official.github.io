@@ -8,6 +8,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .nav-item{
@@ -137,7 +138,7 @@ img {
 .about-me-title{
     margin-top: 10%;
     color: white;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: bold;
     margin-left: 5%;
 }
@@ -197,7 +198,7 @@ img {
 .skill-table-pl{
     color: white;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin-bottom: 5%;
 }
 
