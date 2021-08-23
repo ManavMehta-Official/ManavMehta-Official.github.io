@@ -1,5 +1,4 @@
-/* {=========//  GENERAL-SECTIONS \\=========} */
-
+/*---{    GLOBAL    }---*/
 
 *{
     margin: 0;
@@ -12,52 +11,13 @@ html{
     overflow-x: hidden;
 }
 
+.nav-item{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 body{
-
     overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 5px;
-}
-  
-
-::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-radius: 5px;
-}
-   
-
-::-webkit-scrollbar-thumb {
-    background: rgb(30, 33, 37); 
-    border-radius: 0px;
-}
-  
-
-::-webkit-scrollbar-thumb:hover {
-    background: #525151; 
-}
-
-
-
-/* {=========//  GLOBAL_DECLERATIONS  \\=========} */
-
-hr{
-    width: 75%;
-}
-
-.disabled{
-    border-bottom: 3px solid white;
-}
-
-.workspace a{
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-
-.workspace a:hover{
-    text-decoration: underline;
 }
 
 img {
@@ -67,235 +27,258 @@ img {
     -o-user-drag: none;
     user-select: none;
   }
-  
+
+::-webkit-scrollbar{
+    width: thin;
+    background-color: rgb(30, 33, 37);
+}
+
+::-webkit-scrollbar-thumb{
+    border: 5px solid transparent;
+    border-radius: 100px;
+    background-color: #969696;
+    background-clip: content-box;
+}
 
 
-
-/* {=========//  NAVIGATION-BAR  \\=========} */
-
+/*---{    NAVIGATION-BAR    }---*/
 
 .navbar .navbar-brand{
+    font-size: 1.4rem;
     font-family: 'Homemade Apple';
-    font-weight: bolder;
-    font-size: 1.5rem;
-}
-
-header .navbar{
-    padding: 1rem 1.7rem;
-}
-
-#navbarSupportedContent > ul > li:nth-child(n) > a{
-    color: white;
-    font-size: 1.1rem;
-    padding: 0 1.5rem;
-    margin-top: 5px;
-}
-
-#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
-    color: rgb(167, 164, 164);
-}
-
-#navbarSupportedContent > button{
-    margin-left: 1.5rem;
-    margin-top: 5px;
-}
-
-.navbar-button{
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-    font-weight: bold;
-    box-shadow: inset 0 0 0 0 white;
-}
-
-
-/* {=========//  HERO-SECTION  \\=========} */
-
-
-.banner{
-    width: 100%;
-    height: 100%;
-}
-
-
-
-/* {=========//  WORKSPACE  \\=========} */
-
-.workspace{
-    margin-top: 14%;
-    margin: 1%;
-}
-
-.workspace h1{
-    margin-top: 5%;
-}
-
-.workspace-card{
-    border-radius: 10px;
-}
-
-.workspace .python{
-    background-color: black;
-    color: white;
-    border: 5px solid white;
-}
-
-.workspace p{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 1.3rem;
-}
-
-.py{
-    margin-top: 2%;
-    font-weight: bolder;
-    font-size: 3.5rem;
-}
-
-.workspace .ai{
-    background: #B2FEFA; 
-    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  
-    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
-
-
-    border: 5px solid white;
-}
-
-.ai-title{
-    margin-top: 2%;
-    font-weight: bolder;
-    font-size: 3.5rem;
-}
-
-.ai p{
-    font-weight: 600;
-}
-
-.code{
-    width: 100%;
-}
-
-.ai img{
-    width: 100%;
-}
-
-/* {=========//  WORKSPACE-LINKS  \\=========} */
-
-.projects{
     margin-left: 2%;
 }
 
-.projects:hover{
-    color: #0d6efd;
-}
-
-.learn-more:hover{
-    color: #0d6efd;
-}
-
-
-.learn-more{
+.btn-contact{
+    color: black;
+    border-radius: 30px;
     margin-right: 2%;
+    margin-left: 4%;
+    background-color: white;
+    font-weight: 500;
 }
 
+.btn-contact:hover{
+    color: rgb(250, 250 , 250);
+    background-color: rgb(30, 33, 37);
+}
 
-/* {=========//  YOUTUBE-SECTION  \\=========} */
-
-.yt{
+.dropdown-menu{
+    border-top: 2px solid rgb(226, 226, 226);
     background-color: rgb(30, 33, 37);
     border-radius: 10px;
-    border: 5px solid white;
 }
 
-.yt h1{
+
+.dropdown-item{
+    color: rgb(154, 155, 157);
+    cursor: pointer;
+}
+
+.dropdown-item:hover{
     color: white;
-    font-size: 3.5rem;
+    background-color: rgb(30, 33, 37);
+    cursor: pointer;
 }
 
-.workspace .yt-title{
-    font-size: 5rem;
-    margin-top: 7%;
-    font-weight: bolder;
+.dropdown-divider{
+    color: white;
+    width: 75%;
 }
 
-.yt img{
-    width: 100%;
-    margin: 2%;
-}
+.navbar-toggler{
+    background-color: rgb(30, 33, 37);
 
-.yt-tutorial{
-    color: red;
-}
-
-.yt-tutorial:hover{
-    text-decoration: underline;
-    color: red;
+.navbar-toggler-icon:active{
+    border: 1px solid rgb(30, 33, 37);
 }
 
 
-/* {=========//  WEB-SECTION  \\=========} */
 
-.web{
-    background: #11998e;  
-    background: -webkit-linear-gradient(to right, #11998e, #38ef7d); 
-    background: linear-gradient(to right, #11998e, #38ef7d); 
-    border-radius: 10px;
-    border: 5px solid white;
+/*---{    WORKSPACE-SECTION    }---*/
+
+.workspace{
+    margin-top: 4%;
+    padding: 1%;
+}
+
+.workspace-title{
+    font-size: 5rem;font-weight: bolder;
+}
+
+.title-big{
+    margin-top: 10%;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10%;
+    margin-left: 5%;
     color: white;
 }
 
-.web .web-title{
-    font-size: 5rem;
-    font-weight: bolder;
+.description-big{
+    margin: 5%;
+    color: white;
 }
 
-.web h1{
+
+.title-small{
+    margin-top: 3%;
+    color: white;
+    font-weight: bold;
     font-size: 3rem;
 }
 
+.description-small{
+    color: white;
+    margin-top: 7%;
+    font-weight: 500;
+}
+
+.vl{
+    border-left: 8px solid rgba(100, 100, 100, 0.733);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.title-work{
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.description-work{
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
 
 
-/* {=========//  FOOTER-SECTION  \\=========} */
 
-.footer{
+
+
+.card-1{
+    border: 5px solid white;
+    background-color: black;
+    border-radius: 18px;
+}
+
+.card-2{
+    border: 5px solid white;
+    border-radius: 18px;
+    background: #fc00ff;  
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+}
+
+.card-2 img{
+    width: 60%;
+}
+
+.card-3{
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 5px solid white;
+    border-radius: 18px;
+}
+
+.card-3 img{
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+
+.card-4{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border: 5px solid white;
+    border-radius: 18px;
+}
+
+.card-5{
+    background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 5px solid white;
+    border-radius: 18px;
+}
+
+.card-5 img{
+    width: 60%;
+}
+
+.card-6{
     background-color: rgb(30, 33, 37);
+    border: 5px solid white;
+    border-radius: 18px;
 }
 
-.footer h1{
-    color: white;
-    font-size: 1.5rem;
+.card-6 .title-yt{
+    margin-top: 40%;
 }
 
-.footer-title{
-    font-family: 'Homemade Apple';
+.card-6 img{
+    margin-top: 30%;
+    margin-bottom: 10%;
 }
 
 
-.footer li{
-    margin: 0 4%;
-    list-style: none;
-    display: inline;
+/*---{    WORKSPACE-2-SECTION    }---*/
+
+.workspace-1{
+    margin-top: 4%;
 }
 
-.footer li a{
-    color: white;
+.workspace-2{
+    margin-top: 2%;
+}
+
+.card-6 .learn-more-link{
+    color: #0d6efd;
+    margin-right: 2%; 
+    font-size: 1.1rem;
     text-decoration: none;
 }
 
-.footer-button{
-    background-color: white;
-    border: 1px solid black;
+.card-6 .learn-more-link:hover{
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.yt-link{
+    margin-left: 2%;
+    color: red;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.yt-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.learn-more-link{
     color: black;
-    margin-top: 1%;
+    margin-right: 2%; 
+    font-size: 1.1rem;
+    text-decoration: none;
 }
 
-.footer hr{
-    color: white;
-    width: 90%
+.learn-more-link:hover{
+    color: black;
+    text-decoration: underline;
 }
 
-.footer p{
-    font-family: serif;
+.projects-link{
+    color: black;
+    margin-right: 2%; 
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.projects-link:hover{
+    color: black;
+    text-decoration: underline;
 }
