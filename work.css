@@ -88,6 +88,8 @@ img {
 
 .navbar-toggler{
     background-color: rgb(30, 33, 37);
+    border: none;
+}
 
 .navbar-toggler-icon:active{
     border: 1px solid rgb(30, 33, 37);
