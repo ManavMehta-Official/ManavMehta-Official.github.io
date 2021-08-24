@@ -55,69 +55,50 @@
                         </ul>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-dark btn-contact" type="submit">Contact Me</button>
+                    <button onclick="location.href='https://twitter.com/Manav_0fficial';" class="btn main-icon btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="right" title="Twitter" id="twitter"><i class="fab fa-twitter"></i></button>
+                    <button onclick="myFunction()" type="button" class="btn main-icon mail btn-outline-dark" id="liveToastBtn"><i class="fas fa-envelope"></i> Mail</button>
+
+                    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <strong class="me-auto">Email Address</strong>
+                            <small>Just now</small>                                                                                                                                                                                 
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        
+                        <div class="toast-body">
+                            <p class="email-id" id="p1">manavmehta.official@gmail.com</p>
+                            <div class="mx-auto text-center">
+                                <button onclick="copyToClipboard('#p1')" class="copy-btn btn btn-outline-dark">Copy <i class="fas fa-clipboard"></i></button>
+                            </div> 
+                        </div>
                     </div>
+                    </div> 
+
                 </div>
             </nav>
         </header>
 
 
         <section class="workspace">
-        <h1 class="workspace-title" data-aos="fade-right" data-aos-duration="2000">Work Space</h1> <hr>
-            <div class="row workspace-1">
-                <div class="col-sm-4 card-2 mx-auto text-center">
-                    <h1 class="title-small text-center">Artificial Intelligence</h1>
-                    <p class="description-small text-center">Since childhood, I developed an interest in the field of computer science. I wanted to understand how these fascinat that stood out among all was "cs50:s<br><br><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" class="text-center learn-more-black">Learn more <i class="fas fa-chevron-right fa-sm"></i></a>
-                            <a href="#" class="text-center projects-link-black">Projects <i class="fas fa-chevron-right fa-sm"></i></a></p>
-                    <img src="ai.png" class="img-fluid">
+            <h1 class="workspace-title" data-aos="fade-right" data-aos-duration="2000">Work Space</h1> <hr>
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <img src="" class="img-fluid">
                 </div>
 
-                <div class="col-sm-4 card-5 mx-auto text-center">
-                    <h1 class="title-small text-center">Discord Bots</h1>
-                    <p class="description-small text-center">Since childhood, I developed an interest in the field of computer science. I wanted to understand how these fascinat that stood out among all was "cs50:s <br><br>
-                            <a href="#" class="text-center projects-link-black">Projects <i class="fas fa-chevron-right fa-sm"></i></a></p>
-                    <img src="discord.jpeg" class="img-fluid mx-auto">
+                <div class="col-sm-6 vl">
+                    <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                 </div>
 
-                <div class="col-sm-4 card-3 mx-auto text-center">
-                    <h1 class="title-small text-center">Python</h1>
-                    <p class="description-small text-center">Since childhood, I developed an interest in the field of computer science. I wanted to understand how these fascinat that stood out among all was "cs50:s<br><br><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" class="text-center learn-more-black">Learn more <i class="fas fa-chevron-right fa-sm"></i></a>
-                            <a href="#" class="text-center projects-link-black">Projects <i class="fas fa-chevron-right fa-sm"></i></a></p>
-                    <img src="python.png" class="img-fluid mx-auto">
-                </div>
             </div>
-
-
-            <div class="row workspace-2">
-                <div class="col-sm-3 card-4 ">
-                    <h1 class="title-small text-center">Web <br> Development</h1>
-                    <p class="description-small text-center">Since childhood, I developed an interest in the field of computer science. I wanted to understand how these fascinat that stood out among all was "cs50:s<br><br><a href="https://en.wikipedia.org/wiki/Web_development" class="text-center learn-more-blue">Learn more <i class="fas fa-chevron-right fa-sm"></i></a>
-                            <a href="#" class="text-center projects-link-blue">Projects <i class="fas fa-chevron-right fa-sm"></i></a></p>
-                    <img src="web.png" class="img-fluid mx-auto">
-                </div>
-
-
-                <div class="col-sm-6 card-6">
-                    <div class="row">
-                        <div class="col-sm-6 mx-auto text-center">
-                            <h1 class="title-big title-yt">YouTube <br> Tutorials.</h1>
-                            <a href="https://en.wikipedia.org/wiki/YouTube" class="text-center learn-more-blue">Learn more <i class="fas fa-chevron-right fa-sm"></i></a>
-                            <a href="https://www.youtube.com/channel/UCP5U3FyEWKTyzKt8X2VM-Lgs" class="text-center yt-link">YouTube <i class="fas fa-chevron-right fa-sm"></i></a>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="yt.png" class="img-fluid mx-auto vl">
-                        </div>
-                </div>
-            </div>
-            <div class="col-sm-3 card-7 ">
-                    <h1 class="title-small text-center">App <br> Development</h1>
-                    <p class="description-small text-center">Since childhood, I developed an interest in the field of computer science. I wanted to understand how these fascinat that stood out among all was "cs50:s<br><br><a href="https://en.wikipedia.org/wiki/Mobile_app_development" class="text-center learn-more-blue">Learn more <i class="fas fa-chevron-right fa-sm"></i></a>
-                            <a href="#" class="text-center projects-link-blue">Projects <i class="fas fa-chevron-right fa-sm"></i></a></p>
-                    <img src="app.png" class="img-fluid mx-auto">
-                </div>
-            </div> 
         </section>
         
+
+
+
+
 
 
 
@@ -195,6 +176,8 @@
         <script>
             AOS.init();
         </script>
+        <script src="main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/e4e5626c83.js" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
