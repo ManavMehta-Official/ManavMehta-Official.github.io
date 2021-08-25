@@ -1,14 +1,20 @@
 var toastTrigger = document.getElementById('liveToastBtn')
 var toastLiveExample = document.getElementById('liveToast')
-if (toastTrigger) {
+
+
+
+if (toastTrigger == true) {
 toastTrigger.addEventListener('click', function () {
     var toast = new bootstrap.Toast(toastLiveExample)
-
     toast.show()
 }) 
-} else {
-    toast.style.display = "none";
+if (toastTrigger == false) {
+    toastLiveExample.style.display = 'none';
 }
+}
+
+
+
 
 function copyToClipboard(element) {
     var $temp = $("<input>");
@@ -25,3 +31,7 @@ myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
 
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel-mat');
+    var instances = M.Carousel.init(elems, options);
+  });

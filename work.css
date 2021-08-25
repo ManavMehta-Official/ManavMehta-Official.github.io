@@ -328,3 +328,100 @@ img {
   padding: 2%;
   border-radius: 5px;
 }
+
+.work-cards-1{
+  padding: 5%;
+  background-color: white;
+}
+
+.work-card{
+  border-radius: 20px;
+  background-color: white;
+  border: 5px solid white;
+}
+
+.title{
+  margin-top: 5%;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.work-cards-1 p{
+  margin-top: 5px;
+  margin-bottom: 5%;
+}
+
+.app-dev{
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+
+}
+
+.web-dev{
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.ai{
+  background: #B24592;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;  
+}
+
+.work-card a{
+  color: #0d6efd;
+  cursor: pointer;
+  text-decoration:none;
+}
+
+.work-card a:hover{
+  text-decoration: underline;
+}
+
+.work-card img{
+  margin-top: 10%;
+}
+
+.yt{
+  background-color: white;
+  margin: 5%;
+}
+
+
+.py{
+  background: #FDC830;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+
+.link{
+  margin-top: 5%;
+  color: #0d6efd;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.work-section{
+  padding: 10% 3%;
+}
+
+.ai img{
+  width: 50%;
+}
+
+.yt .title{
+  font-size: 5rem;
+  margin-top: 12%;
+}
+
+
+.py img{
+  width: 40%;
+}
