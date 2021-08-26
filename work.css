@@ -432,6 +432,8 @@ img {
 
 .offcanvas{
   background-color: rgb(30, 33, 37);
+  position: fixed;
+  height: 100%;
 }
 
 .btn-close{
@@ -445,6 +447,7 @@ img {
 .offcanvas-hr{
   color: #fff;
   margin-top: -3%;
+  
 }
 
 .btn-home{
