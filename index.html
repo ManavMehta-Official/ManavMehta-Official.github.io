@@ -35,9 +35,29 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="https://manavmehta-official.github.io">Manav</a>
-                    <button class="navbar-toggler btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <span class="navbar-toggler-icon btn-outline-dark"></span>
                     </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h1 id="offcanvasRightLabel" class="offcanvas_title">Manav</h1>
+                        <button type="button" class="close-btn btn btn-outline-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
+                    </div><hr class="offcanvas-hr">
+                    <div class="offcanvas-body">
+                        <a class="nav-link btn-home" href="https://manavmehta-official.github.io">Home</a><hr class="link-hr">
+                        <a class="nav-link btn-home" href="https://manavmehta-official.github.io">Work</a><hr class="link-hr">
+                        <p class="nav-link btn-home btn-page" href="#">This Page <i class="fas fa-chevron-down fa-sm"></i></p>
+                        <a class="nav-link btn-down" href="#">Web Development</a>
+                        <hr class="dropdown-divider mx-auto">
+                        <a class="nav-link btn-down" href="#">App Development</a>
+                        <hr class="dropdown-divider mx-auto">
+                        <a class="nav-link btn-down" href="#">Tutorials</a>
+                        <hr class="dropdown-divider mx-auto">
+                        <a class="nav-link btn-down" href="#">Artificial Intelligence</a>
+                        <hr class="dropdown-divider mx-auto">
+                        <a class="nav-link btn-down" href="#">Python</a>
+                    </div>
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
@@ -60,25 +80,26 @@
                         </li>
                     </ul>
                    <button onclick="location.href='https://twitter.com/Manav_0fficial';" class="btn main-icon btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="right" title="Twitter" id="twitter"><i class="fab fa-twitter"></i></button>
-                    <button onclick="myFunction()" type="button" class="btn main-icon mail btn-outline-dark" id="liveToastBtn"><i class="fas fa-envelope"></i> Mail</button>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" class="btn main-icon mail btn-outline-dark"><i class="fas fa-envelope"></i> Mail</button> 
 
-                    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
-                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <strong class="me-auto">Email Address</strong>
-                            <small>Just now</small>                                                                                                                                                                                 
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Email Address</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-
-                        <div class="toast-body">
+                        <div class="modal-body">
                             <p class="email-id" id="p1">manavmehta.official@gmail.com</p>
-                            <div class="mx-auto text-center">
-                                <button onclick="copyToClipboard('#p1')" class="copy-btn btn btn-outline-dark">Copy <i class="fas fa-clipboard"></i></button>
-                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button onclick="location.href='https://mail.google.com';" type="button" class="btn btn-primary">Gmail</button>
+                        </div>
                         </div>
                     </div>
-                    </div> 
-
+                    </div>
                 </div>
             </nav>
         </header>
@@ -88,7 +109,7 @@
             <div class="row">
                 <div class="col-sm-6 my-auto text-center">
                     <h1 class="banner-title" data-aos="fade-right" data-aos-duration="2000">Manav Mehta</h1>
-                    <h3 class="banner-sub-text text-muted" data-aos="fade-right" data-aos-duration="3000">&ldquo; Im a developer specialising in web <br> development and python programming. &rdquo;</h3>
+                    <h3 class="banner-sub-text text-muted" data-aos="fade-right" data-aos-duration="3000">&ldquo;Im a developer specialising in web <br> development and python programming.&rdquo;</h3>
                 </div>
                 <div class="col-sm-6 text-center">
                     <img src="pfp-web.png" class="banner-img">

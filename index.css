@@ -611,3 +611,61 @@ table td.r, table th.r {
     padding: 2%;
     border-radius: 5px;
 }
+
+.modal-open {
+    overflow:hidden;
+    overflow-y:scroll;
+    padding-right:0 !important;
+}
+
+.offcanvas_title{
+    font-family: 'Homemade Apple';
+    font-size: 1.4rem;
+    color: #fff;
+    margin-top: 4%;
+  }
+  
+  .offcanvas{
+    background-color: rgb(30, 33, 37);
+  }
+  
+  .btn-close{
+    color: #fff;
+  }
+  
+  .fa-times{
+    color: #fff;
+  }
+  
+  .offcanvas-hr{
+    color: #fff;
+    margin-top: -3%;
+  }
+  
+  .btn-home{
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  .link-hr{
+    margin-left: 5%;
+    margin-top: 1.2%;
+    color: #fff;
+  }
+  
+  .btn-page{
+    margin-top: 5%;
+  }
+  
+  .btn-page:hover{
+    color: #fff;
+  }
+  
+  .btn-down{
+    color: #fff;
+    margin-left: 7%;
+  }
+  
+  .offcanvas-btn{
+    margin-top: 55%;
+  }
