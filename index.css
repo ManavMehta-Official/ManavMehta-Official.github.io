@@ -628,7 +628,7 @@ table td.r, table th.r {
   .offcanvas{
     background-color: rgb(30, 33, 37);
     position: fixed;
-    height: 100%;
+    min-height: 100vh;
   }
   
   .btn-close{
