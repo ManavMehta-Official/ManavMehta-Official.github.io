@@ -38,7 +38,9 @@
                     <a class="navbar-toggler btn-outline-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <span class="navbar-toggler-icon btn-outline-dark"></span>
                     </a>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-bs-scroll="false">
                     <div class="offcanvas-header">
                         <h1 id="offcanvasRightLabel" class="offcanvas_title">Manav</h1>
                         <button type="button" class="close-btn btn btn-outline-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
@@ -54,6 +56,8 @@
                         <a class="nav-link btn-down" data-bs-dismiss="offcanvas" href="#gallery">Gallery</a>
                     </div>
                     </div>
+
+
                     <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
@@ -83,15 +87,15 @@
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Email Address</h5>
+                            <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-envelope"></i> Email Address</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <p class="email-id" id="p1">manavmehta.official@gmail.com</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button onclick="location.href='https://mail.google.com';" type="button" class="btn btn-primary">Gmail</button>
+                            <div class="mx-auto text-center">
+                            <button type="button" class="btn btn-secondary mx-auto text-center" data-bs-dismiss="modal">Close</button>
+                            <button onclick="location.href='https://mail.google.com';" type="button" class="btn btn-primary mx-auto text-center">Gmail</button>
+                            </div>
                         </div>
                         </div>
                     </div>
@@ -296,4 +300,3 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     </body>
 </html> 
-</html>
