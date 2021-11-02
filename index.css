@@ -139,6 +139,8 @@ img {
   border-radius: 30px;
   margin-left: 2%;
   margin-right: 2%;
+  background-color: rgb(15, 99, 253);
+  color: white;
 }
 
 
@@ -568,4 +570,32 @@ img {
   padding: 5%;
 }
 
+.skills-sub-sec{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+}
 
+.accordion-item{
+  border: none;
+}
+
+.accordion-title{
+  font-size: 2rem;
+}
+
+.fa-code{
+  margin-right: 2%;
+}
+
+.fa-codepen{
+  margin-right: 2%;
+}
+
+.progress{
+  margin-bottom: 5%;
+}
+
+.progress-title{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
