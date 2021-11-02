@@ -18,6 +18,8 @@ html{
 
 body{
     overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 img {
@@ -28,25 +30,30 @@ img {
     user-select: none;
   }
 
-::-webkit-scrollbar{
-    width: thin;
-    background-color: rgb(30, 33, 37);
-}
-
-::-webkit-scrollbar-thumb{
-    border: 5px solid transparent;
-    border-radius: 100px;
-    background-color: #969696;
-    background-clip: content-box;
-}
-
 
 /*---{    NAVIGATION-BAR    }---*/
 
 .navbar .navbar-brand{
     font-size: 1.4rem;
-    font-family: 'Homemade Apple';
-    margin-left: 2%;
+    margin-left: 10%;
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: rgb(41, 38, 38);
+}
+
+.navbar-nav{
+  margin-left: 90%;
+  position: absolute;
+  right: 15%;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.navbar{
+  box-shadow: 0 -1px 6px rgba(0,0,0,.15);
+  transition: 0.3s;
 }
 
 .btn-contact{
@@ -64,9 +71,10 @@ img {
 }
 
 .dropdown-menu{
-    border-top: 2px solid rgb(226, 226, 226);
-    background-color: rgb(30, 33, 37);
+    background-color: white;
     border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(80, 81, 82);
 }
 
 
@@ -76,8 +84,8 @@ img {
 }
 
 .dropdown-item:hover{
-    color: white;
-    background-color: rgb(30, 33, 37);
+    color: rgb(108, 110, 112);
+    background-color: white;
     cursor: pointer;
 }
 
@@ -102,103 +110,84 @@ img {
 /*---{    BANNER-SECTION    }---*/
 
 .banner{
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin-top: 7%;
+    margin-bottom:15%;
 }
 
 .banner-title{
     font-size: 6rem;
     font-weight: bolder;
-    margin-top: 5%;
+    margin-top: 10%;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .banner-sub-text{
     margin-top: 5%;
-    font-family: 'Patrick Hand';
+    font-size: 1.4rem;
+    color:rgb(106, 107, 107);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .banner-img{
-    margin-top: 10%;
     width: 60%;
-    border-radius: 100%;
-    box-shadow: 0 0 15px 0 rgb(30 , 33, 37);
 }
 
+#contact-button{
+  border: none;
+  padding: 15px;
+  margin-top: 5%;
+  border-radius: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
 
 /*---{    ABOUT-ME-SECTION    }---*/
 
 .about-me{
-    background-color: rgb(30, 33, 37);
-}
-
-.about-me-title{
+    background-color: #fff;
     margin-top: 10%;
-    color: white;
-    font-size: 6rem;
-    font-weight: bold;
-    margin-left: 5%;
 }
 
-.vl-p{
-    border-left: 8px solid rgba(100, 100, 100, 0.733);
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+#about-me-title{
+  font-size: 4rem;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  margin-top: 5%;
 }
 
-.vl-h{
-    border-right: 8px solid rgba(100, 100, 100, 0.733);
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
 
 .about-me p{
-    color: white;
     margin: 5%;
+    margin-top: 0;
     font-size: 1.3rem;
+    text-align: center;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
+.about-me hr{
+  width: 50%;
+}
+
+
+.tab-pane{
+  padding: 5%;
+}
 
 
 /*---{    SKILLS-SECTION    }---*/
 
 .skills-title{
-    font-size: 8rem;
-    margin-top: 10%;
-    color: black;
-    font-weight: bold;
-    margin-left: 5%;
+  font-size: 4rem;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  margin-top: 5%;
 }
 
-.skills p{
-    color: black;
-    margin: 5%;
-    font-size: 1.3rem;
+.skills hr{
+  width: 50%;
 }
 
-.table{
-    width: 90%;
-    border: 1px solid rgb(30, 33, 37);
-}
-
-.table td{
-    font-weight: 500;
-}
-
-.skills-table{
-    background-color: rgb(30, 33, 37);
-    padding: 1%;
-}
-
-.skill-table-pl{
-    margin-top: 2%;
-    color: white;
-    font-weight: bold;
-    font-size: 3.1rem;
-    margin-bottom: 5%;
-}
 
 /*---{    SKILLS-TABLE-ICONS-SECTION    }---*/
 
@@ -265,94 +254,7 @@ img {
 
 
 
-/*---{    SKILLS-TABLE-SECTION    }---*/
-table {
-    border-spacing: 1;
-    border-collapse: collapse;
-    background: white;
-    border-radius: 6px;
-    overflow: hidden;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid rgb(30, 33, 37);
-    margin-bottom: 5%;
-}
-table * {
-    position: relative;
-}
-table td, table th {
-    padding-left: 8px;
-}
-table thead tr {
-    height: 60px;
-    background: rgb(30, 33, 37);
-    font-size: 16px;
-}
-table thead th{
-    color: white;
-}
-table tbody tr {
-    height: 48px;
-    border-bottom: 1px solid #e3f1d5;
-}
-table tbody tr:last-child {
-    border: 0;
-}
-table td, table th {
-    text-align: left;
-}
-table td.l, table th.l {
-    text-align: right;
-}
-table td.c, table th.c {
-    text-align: center;
-}
-table td.r, table th.r {
-    text-align: center;
-}
-@media screen and (max-width: 35.5em) {
-    table {
-        display: block;
-   }
-    table > *, table tr, table td, table th {
-        display: block;
-   }
-    table thead {
-        display: none;
-   }
-    table tbody tr {
-        height: auto;
-        padding: 8px 0;
-   }
-    table tbody tr td {
-        padding-left: 45%;
-        margin-bottom: 12px;
-   }
-    table tbody tr td:last-child {
-        margin-bottom: 0;
-   }
-    table tbody tr td:before {
-        position: absolute;
-        font-weight: 700;
-        width: 40%;
-        left: 10px;
-        top: 0;
-   }
-    table tbody tr td:nth-child(1):before {
-        content: "ICON";
-   }
-    table tbody tr td:nth-child(2):before {
-        content: "LANGUAGE";
-   }
-    table tbody tr td:nth-child(3):before {
-        content: "EXPERIENCE";
-   }
-    table tbody tr td:nth-child(4):before {
-        content: "SKILL RATING";
-   }
-}
+
 
 
 
@@ -595,89 +497,75 @@ table td.r, table th.r {
     color:#fff;
 }
 
-#twitter{
-    background-color: #00aced;
+#instagram{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
-#twitter:hover{
-    background-color: #0c9fd5;
+#instagram:hover{
+  background: #e88f31; 
+  background: -moz-linear-gradient(45deg, #e88f31 0%, #d35f34 25%, #ca2840 50%, #b8205d 75%, #ac1b7e 100%); 
+  background: -webkit-linear-gradient(45deg, #e88f31 0%,#d35f34 25%,#ca2840 50%,#b8205d 75%,#ac1b7e 100%); 
+  background: linear-gradient(45deg, #e88f31 0%,#d35f34 25%,#ca2840 50%,#b8205d 75%,#ac1b7e 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e88f31', endColorstr='#ac1b7e',GradientType=1 );
     border: 4px solid rgb(30, 33, 37);
     color:rgb(250, 250 , 250);
 }
 
-.email-id{
-    background-color: rgb(30, 33, 37);
-    color: white;
-    padding: 2%;
-    border-radius: 5px;
+
+
+.offcanvas-start{
+  padding: 0 !important;
+  margin: 0;
 }
 
-.modal-open {
-    overflow:hidden;
-    overflow-y:scroll;
-    padding-right:0 !important;
-}
-
-.offcanvas_title{
-  font-family: 'Homemade Apple';
-  font-size: 1.4rem;
-  color: #fff;
-  margin-top: 4%;
+#offcanvasController{
+  margin: 0 !important;
+  padding-right: 0 !important;
 }
 
 .offcanvas{
-  background-color: rgb(30, 33, 37);
+  padding: -5% !important;
   position: fixed;
   min-height: 100vh;
+  color: #fff;
+  overflow: auto;
 }
 
-.btn-close{
-  color: #fff;
+#offcanvas-toggle-button{
+  color: white;
+  background-color: white;
+  border: none;
+}
+
+#offcanvasTopLabel{
+  color: #000;
+  margin-top: 1%;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 2rem;
+  margin-left: 2%;
+}
+
+.fa-bars{
+  color: #000;
+  margin-right: 5%;
 }
 
 .fa-times{
-  color: #fff;
+  color: #000;
 }
 
-.offcanvas-hr{
-  color: #fff;
-  margin-top: -3%;
-}
-
-.btn-home{
-color: #fff;
-font-size: 1.1rem;
-}
-
-.link-hr{
-  margin-left: 5%;
-  margin-top: 1.2%;
-  color: #fff;
-}
-
-.btn-page{
-  margin-top: 5%;
-}
-
-.btn-page:hover{
-  color: #fff;
-}
-
-.btn-down{
-  color: #fff;
-  margin-left: 7%;
-}
-
-.offcanvas-btn{
-  margin-top: 55%;
-}
-
-.navbar-toggler{
-  background-color: rgb(30, 33, 37);
+#offcanvas-close-button{
   color: white;
+  background-color: white;
+  border: none;
 }
 
-.navbar-toggler-hover{
-  background-color: rgb(30, 33, 37);
-  color: white;
+.navigation-links{
+  padding: 5%;
 }
+
+

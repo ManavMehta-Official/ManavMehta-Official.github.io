@@ -17,11 +17,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
         <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&family=Zen+Kaku+Gothic+Antique:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href ="https://unpkg.com/@popperjs/core@2" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     </head>
@@ -32,76 +36,62 @@
     <body>
         
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="https://manavmehta-official.github.io">Manav</a>
-                    <a class="navbar-toggler btn-outline-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <span class="navbar-toggler-icon btn-outline-dark"></span>
-                    </a>
-
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-bs-scroll="false">
-                    <div class="offcanvas-header">
-                        <h1 id="offcanvasRightLabel" class="offcanvas_title">Manav</h1>
-                        <button type="button" class="close-btn btn btn-outline-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
-                    </div><hr class="offcanvas-hr">
-                    <div class="offcanvas-body">
-                        <a class="nav-link btn-home" href="https://manavmehta-official.github.io">Home</a><hr class="link-hr">
-                        <a class="nav-link btn-home" href="https://manavmehta-official.github.io/work.html">Work</a><hr class="link-hr">
-                        <p class="nav-link btn-home btn-page" href="#">This Page <i class="fas fa-chevron-down fa-sm"></i></p>
-                        <a class="nav-link btn-down"data-bs-dismiss="offcanvas" href="#about-me">About Me</a>
-                        <hr class="dropdown-divider mx-auto">
-                        <a class="nav-link btn-down"data-bs-dismiss="offcanvas" href="#skills">Skill Set</a>
-                        <hr class="dropdown-divider mx-auto">
-                        <a class="nav-link btn-down" data-bs-dismiss="offcanvas" href="#gallery">Gallery</a>
-                    </div>
-                    </div>
-
-
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <button class="navbar-toggler" id="offcanvas-toggle-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="#offcanvasTop">
+                    <i class="fas fa-bars fa-lg"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://manavmehta-official.github.io">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="https://manavmehta-official.github.io/work.html">Work</a>
+                        <a class="nav-link" href="#about-me">About</a>
                         </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            This Page
-                        </a>
-                        <ul class="dropdown-menu text-center" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="#about-me">About Me</a></li>
-                            <li><hr class="dropdown-divider mx-auto"></li>
-                            <li><a class="dropdown-item" href="#skills">Skill Set</a></li>
-                            <li><hr class="dropdown-divider mx-auto"></li>
-                            <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
-                        </ul>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a> 
                         </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        
                     </ul>
-                   <button onclick="location.href='https://twitter.com/Manav_0fficial';" class="btn main-icon btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="right" title="Twitter" id="twitter"><i class="fab fa-twitter"></i></button>
-                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" class="btn main-icon mail btn-outline-dark"><i class="fas fa-envelope"></i> Mail</button> 
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-envelope"></i> Email Address</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="email-id" id="p1">manavmehta.official@gmail.com</p>
-                            <div class="mx-auto text-center">
-                            <button type="button" class="btn btn-secondary mx-auto text-center" data-bs-dismiss="modal">Close</button>
-                            <button onclick="location.href='https://mail.google.com';" type="button" class="btn btn-primary mx-auto text-center">Gmail</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
                     </div>
                 </div>
             </nav>
+
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
+
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel">Menu</h5>
+                <button class="text-reset" id="offcanvas-close-button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times fa-lg"></i></button>
+            </div>
+            <div class="offcanvas-body">
+            <div class="navigation-links">
+                 <li class="nav-item">
+                    <a class="nav-link" data-bs-dismiss="offcanvas" href="https://manavmehta-official.github.io"><i class="fas fa-home"></i>  Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-dismiss="offcanvas" href="#about-me"><i class="fas fa-user-alt"></i>  About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-dismiss="offcanvas" href="#skills"><i class="fas fa-network-wired"></i>  Skills</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-dismiss="offcanvas" href="#"><i class="fas fa-briefcase"></i>  Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-dismiss="offcanvas" href="#"><i class="fas fa-phone-alt"></i>  Contact</a>
+                </li>
+                </div>
+            </div>
+            </div>
         </header>
 
 
@@ -109,7 +99,8 @@
             <div class="row">
                 <div class="col-sm-6 my-auto text-center">
                     <h1 class="banner-title" data-aos="fade-right" data-aos-duration="2000">Manav Mehta</h1>
-                    <h3 class="banner-sub-text text-muted" data-aos="fade-right" data-aos-duration="3000">&ldquo;Im a developer specialising in web <br> development and python programming.&rdquo;</h3>
+                    <h3 class="banner-sub-text text-muted" data-aos="fade-right" data-aos-duration="3000">Im a developer specialising in web <br> development and python programming.</h3>
+                    <button onclick="window.location.href='#about-me'" id="contact-button">Contact Me</button> <button onclick="window.location.href='#about-me'" id="contact-button">Read More</button>
                 </div>
                 <div class="col-sm-6 text-center">
                     <img src="pfp-web.png" class="banner-img">
@@ -119,90 +110,35 @@
 
 
         <section class="about-me" id="about-me">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1 class="about-me-title">About <br> Me.</h1>
-                </div>
-                <div class="col-sm-6 vl-p">
-                    <p> <i class='bx bxs-quote-alt-left bx-lg'></i> I know my name is all over the website but still, just in case you did not read it, my name is Manav Mehta! I'm a 15-year-old currently studying in 10th grade at Delhi Public School, Bangalore. I feel happy to be a part of this great school with good friends, helpful and loving teachers and sound school administration. I am good at a lot of things ranging from studies to sports. My favourite subject is Biology and my favourite sport is football and swimming.<br> <br>
+            <div class="about-me-title mx-auto">
+            <h1 id="about-me-title" class="mx-auto text-center">About me</h1><hr class="mx-auto">
+            <p>I know my name is all over the website but still, just in case you did not read it, my name is Manav Mehta! I'm a 15-year-old currently studying in 10th grade at Delhi Public School, Bangalore. I feel happy to be a part of this great school with good friends, helpful and loving teachers and sound school administration. I am good at a lot of things ranging from studies to sports. My favourite subject is Biology and my favourite sport is football and swimming.<br> <br>
                         Since childhood, I developed an interest in the field of computer science. I wanted to understand how these fascinating machines operated. I started reading books, blogs, articles etc. to grasp as much as knowledge possible on the topic. Thus, my ambition became to excel in the field of computer sciences. I started attending various courses on computer science but one course that stood out among all was "cs50: introduction to computer science." This course has been a major part of the development of my programming skills.<br> <br>
-                        These are all the things which express me. Though nobody can be described in a few sets of sentences. One needs to have yet command of oneself before going to write something about his life. Life is meant to be lived avidly and with visualization to do good for your fellow beings. Keeping this aim in mind, I have always desired to serve my people in whatever capacity I can.
-                    </p>
-                </div>
+                        These are all the things which express me. Though nobody can be described in a few sets of sentences. One needs to have yet command of oneself before going to write something about his life. Life is meant to be lived avidly and with visualization to do good for your fellow beings. Keeping this aim in mind, I have always desired to serve my people in whatever capacity I can.</p>
+
+            <ul class="nav nav-pills mb-3 mx-auto text-center" id="pills-tab">
+            <li class="nav-item text-center mx-auto" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item mx-auto" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</div>
             </div>
         </section>
 
 
 
         <section class="skills" id="skills">
-            <div class="row">
-                <div class="col-sm-6 vl-p">
-                    <h1 class="skills-title" id="skills">Skill <br> Set.</h1>
-                </div>
-                <div class="col-sm-6 vl-p">
-                    <p> What is Lorem Ipsum?
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </p>
-                </div>
-            </div>
+            <h1 class="skills-title text-center mx-auto">Skills</h1><hr class="mx-auto">
         </section>
 
 
-        <section class="skills-table text-center mx-auto">
-            <h1 class="skill-table-pl">Programming <br>Languages.</h1>
-            <table>
-                <thead>
-                    <tr>
-                    <th>ICON</th>
-                    <th>LANGUAGE</th>
-                    <th>EXPERIENCE</th>
-                    <th>SKILL RATING</th>
-                    </tr>
-                <thead>
-                <tbody>
-                    <tr>
-                    <td><i class="fab fa-python fa-2x"></i></td>
-                    <td>Python</td>
-                    <td>2 years</td>
-                    <td><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i></td>
-                    </tr>
-                    <tr>
-                    <td><i class="fab fa-html5 fa-2x"></i></td>
-                    <td>HTML5</td>
-                    <td>3 years</td>
-                    <td><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i></td>
-                    </tr>
-                    <tr>
-                    <td><i class="fab fa-css3-alt fa-2x"></i></td>
-                    <td>CSS</td>
-                    <td>3 years</td>
-                    <td><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i></td>
-                    </tr>
-                    <tr>
-                    <td><i class="fab fa-swift fa-2x"></i></td>
-                    <td>Swift</td>
-                    <td>1 year</td>
-                    <td><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i></td>
-                    </tr>
-                    <tr>
-                    <td><i class="fab fa-js fa-2x"></i></td>
-                    <td>JavaScript</td>
-                    <td>6 months</td>
-                    <td><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i><i class='bx bxs-star bx-sm'></i></td>
-                    </tr>   
-                </tbody>
-            </table>
 
-            <div class="row mx-auto text-center">
-                <li class="mb-2 mt-2 text-center mx-auto">
-                <button class="projects-btn btn btn-outline-dark">PROJECTS <i class="fas fa-chevron-right"></i></button>
-                <button class="github-btn btn btn-outline-dark">GITHUB <i class="fas fa-chevron-right"></i></button>
-            </li>
-            </div>
-            
-        </section>
+    
 
 
         <section class="gallery" id="gallery">
@@ -230,7 +166,7 @@
                 <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <h6>Page Summary</h6>
-                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                    <p class="text-justify">This page contains all the information about me. All my skills and strength are written on this page. I'm open to collab so feel free to contact me via mail! </p>
                 </div>
 
                 <div class="col-xs-6 col-md-3">
