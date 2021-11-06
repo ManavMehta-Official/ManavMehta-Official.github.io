@@ -32,3 +32,102 @@
     width: 50%;
     height: 30px;
 }
+
+.glass{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    border-radius: 1.5rem;
+    height: 90vh;
+    height: fixed;
+}
+
+.glass-content{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+    );
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    padding: 3%;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 90vh;
+    height: fixed;
+}
+
+.glass-content::-webkit-scrollbar {
+    display: none;
+}
+
+
+.glass-nav{
+    background-color: white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    padding: 2%;
+    height: 90vh;
+    height: fixed;
+}
+
+.glass-nav-title{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.glass-nav-item{
+    margin-top: 30%;
+    text-align: left;
+    list-style: none;
+}
+
+.glass-nav-item-last{
+    margin-bottom: 40%;
+}
+
+.card-ttt{
+    background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-ttt img{
+    width: 90%;
+}
+
+.card-kk{
+    background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-kk img{
+    margin-top: 8%;
+}
+
+.card-50g{
+    background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-nb{
+    background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc61c, #ff8e2c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc61c, #ff8e2c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-pokedex{
+    background: #9CECFB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+

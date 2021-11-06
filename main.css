@@ -73,4 +73,40 @@ img{
     border: none;
 }
 
+.work-card{
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
+.title{
+    color: white;
+    margin-top: 2%;
+}
+
+.link{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: #0d6efd;
+}
+
+.link-disabled{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.link-disabled:hover{
+    color: #0d6efd;
+    cursor: not-allowed;
+}
+
+.under-construction{
+    font-size: 6rem;
+    margin-top: 20%;
+}
