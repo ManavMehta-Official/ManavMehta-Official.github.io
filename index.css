@@ -39,8 +39,7 @@
     margin-right: 4%;
     margin-bottom: 2%;
     border-radius: 1.5rem;
-    height: 90vh;
-    height: fixed;
+    transition: transform 0.3s ease;
 }
 
 .glass-content{
@@ -55,8 +54,7 @@
     padding: 3%;
     overflow: auto;
     overflow-x: hidden;
-    height: 90vh;
-    height: fixed;
+    transition: transform 0.3s ease;
 }
 
 .glass-content::-webkit-scrollbar {
@@ -69,8 +67,8 @@
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
     padding: 2%;
-    height: 90vh;
     height: fixed;
+    transition: transform 0.3s ease;
 }
 
 .glass-nav-title{
@@ -188,7 +186,8 @@ background: linear-gradient(to right, #ffc61c, #ff8e2c); /* W3C, IE 10+/ Edge, F
 .footer-links
 {
   padding-left:0;
-  list-style:none
+  list-style:none;
+  margin-top: 5%;
 }
 .footer-links li
 {
@@ -198,6 +197,7 @@ background: linear-gradient(to right, #ffc61c, #ff8e2c); /* W3C, IE 10+/ Edge, F
 {
   color:black;
   margin-left: 2%;
+  margin-top: 15%;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -223,6 +223,16 @@ background: linear-gradient(to right, #ffc61c, #ff8e2c); /* W3C, IE 10+/ Edge, F
   background-color:#d1d1d1;
   color: white;
 }
+.footer-btn{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.site-footer .footer-item-custom{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .copyright-text
 {
   margin:0
@@ -318,7 +328,7 @@ background: linear-gradient(to right, #ffc61c, #ff8e2c); /* W3C, IE 10+/ Edge, F
 }
 
 .social-icons .reddit:hover{
-    background-color: rgb(255, 60, 1);
+    background-color: orangered;
 }
 
 @media (max-width:767px)
@@ -330,3 +340,13 @@ background: linear-gradient(to right, #ffc61c, #ff8e2c); /* W3C, IE 10+/ Edge, F
     font-weight:600
   }
 }
+
+.qualifications{
+  padding: 5%;
+}
+
+
+
+
+
+
