@@ -18,6 +18,7 @@
 .banner-text-para{
     font-size: 1.7rem;
     font-family: 'Raleway', sans-serif;
+    padding: 2%;
 }
 
 
@@ -94,14 +95,50 @@
 }
 
 .card-ttt{
-    background: #56ab2f;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00C9FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
 
+.card-dna{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.card-notes{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.card-notes img{
+  width: 45%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+
+.card-dna img{
+  width: 50%;
+  margin-bottom: 2%;
 }
 
 .card-ttt img{
     width: 90%;
+}
+
+.card-spell img{
+  width: 70%;
+  margin-top: 8%;
+}
+.card-spell{
+  background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .card-kk{
@@ -122,6 +159,35 @@ background: linear-gradient(to left, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Fi
 
 }
 
+.card-cred{
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-read img{
+  margin-top: 8%;
+  width: 80%;
+}
+
+.card-read{
+  background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-cred img{
+  width: 60%;
+}
+
+.card-ni{
+  background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .card-nb{
     background: #F2994A;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #ffc61c, #ff8e2c);  /* Chrome 10-25, Safari 5.1-6 */
@@ -135,6 +201,7 @@ background: linear-gradient(to right, #ffc61c, #ff8e2c); /* W3C, IE 10+/ Edge, F
     background: linear-gradient(to left, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+
 
 .skills-progress{
     padding: 5%;
