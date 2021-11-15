@@ -5,7 +5,6 @@ body{
 }
 
 .logo{
-    width: 100%;
     border-radius: 100%;
 }
 
@@ -35,7 +34,7 @@ img{
     border-radius: .8rem;
     padding: .5%;
     color: white;
-    background-color: rgb(52, 155, 83)
+    background-color: rgb(52, 155, 83);
 }
 
 .hero-logo{
@@ -50,9 +49,9 @@ img{
 }
 
 .title-hr{
-    color: white;
+    color: rgb(78, 90, 240);
     height: 10px !important;
-    width: 20%;
+    width: 100%;
     opacity: 100%;
 }
 
@@ -97,4 +96,104 @@ img{
     border: none;
     border-radius: .8rem;
     font-weight: bold;
+}
+
+.commands-title{
+    color: white;
+    margin-top: 15%;
+    font-size: 3.8rem;
+}
+
+.sub-commands{
+    color: white;
+    font-size: 3rem;
+    margin-top: 10%;
+    border: none;
+    padding: 2%;
+    background-color: rgb(47, 50, 55);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.command-line{
+    margin-top: 10% !important;
+}
+
+.command-item{
+    text-align: right !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.command-desc{
+    color: #fff;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.line{
+    color: white;
+    text-align: left;
+}
+
+.example{
+    color: #fff;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.usage{
+    border:none;
+    padding: 2%;
+    border-radius: .8rem;
+    background-color: rgb(47, 50, 55);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.seperator {
+    color: white;
+    margin-top: 10% !important;
+    width: 90% !important;
+}
+
+.group{
+    border: none;
+    color: white;
+    padding: 1.5%;
+    font-weight: bold;
+    background-color: rgb(52, 155, 83);
+    border-radius: .8rem;
+    margin-left: 4%;
+}
+
+.danger{
+    color: white;
+    font-size: 3rem;
+    margin-top: 10%;
+    border: none;
+    padding: 2%;
+    background-color: rgb(243, 54, 60);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.danger-tags{
+    border:none;
+    padding: 2%;
+    background-color: rgb(243, 54, 60);
+    color: white;
+    font-weight: bold;
+    border-radius:  .8rem;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
