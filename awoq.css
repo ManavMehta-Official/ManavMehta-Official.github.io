@@ -9,12 +9,25 @@ body{
     border-radius: 100%;
 }
 
+img{
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
 
 
 .navbar{
     border-radius: 1.5rem;
     border: 2px solid rgb(33, 37, 33);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-item{
+    margin-left: 4% !important;
+    margin-right: 4% !important;
 }
 
 .add-btn{
@@ -25,3 +38,63 @@ body{
     background-color: rgb(52, 155, 83)
 }
 
+.hero-logo{
+    margin-top: 10%;
+    border-radius: 100rem;
+}
+
+.hero-title{
+    color: white;
+    margin-top: 5%;
+    font-size: 4rem;
+}
+
+.title-hr{
+    color: white;
+    height: 10px !important;
+    width: 20%;
+    opacity: 100%;
+}
+
+.hero-sub-text{
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+.tags{
+    border:none;
+    padding: 2%;
+    background-color: rgb(78, 90, 240);
+    color: white;
+    font-weight: bold;
+    border-radius:  .8rem;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.prefix{
+    border:none;
+    padding: 2%;
+    border-radius: .8rem;
+    background-color: rgb(47, 50, 55);
+    color: white;
+    font-weight: bold;
+    padding-left: 40%;
+    padding-right: 40%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.invite-btn{
+    padding: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 10%;
+    background-color: rgb(52, 155, 83);
+    color: white;
+    border: none;
+    border-radius: .8rem;
+    font-weight: bold;
+}
