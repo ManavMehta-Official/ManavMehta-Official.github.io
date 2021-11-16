@@ -94,6 +94,8 @@ img{
     background-color: rgb(52, 155, 83);
     color: white;
     border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-radius: .8rem;
     font-weight: bold;
 }
