@@ -100,6 +100,10 @@ img{
     font-weight: bold;
 }
 
+.com-2{
+  margin-top: 15% !important;
+}
+
 .commands-title{
     color: white;
     margin-top: 15%;
@@ -112,8 +116,8 @@ img{
     margin-top: 10%;
     border: none;
     padding: 2%;
-    background-color: rgb(47, 50, 55);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(76, 85, 232);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 1);
     border-radius: 1rem;
 }
 
@@ -433,6 +437,7 @@ img{
     border-radius: .8rem;
     background-color: rgb(216, 114, 19);
     color: white;
+    margin-top: 2%;
     font-weight: bold;
     padding-left: 4%;
     padding-right: 4%;
