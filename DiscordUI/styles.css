@@ -142,7 +142,7 @@ button {
     border: none;
     background-color: rgb(52, 155, 83);
     color: white;
-    padding: 1% 2%;
+    padding: 1% 4%;
     font-size: 1.8rem;
     border-radius: 0.8rem;
     margin-top: 2%;
@@ -200,3 +200,11 @@ button {
     }
   }
 
+.dev-doc{
+    background-color: rgb(52, 155, 83);
+    padding: 1.2% 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    border-radius: 0.8rem;
+}
