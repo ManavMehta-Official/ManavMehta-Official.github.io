@@ -208,3 +208,13 @@ button {
     color: white;
     border-radius: 0.8rem;
 }
+
+.status{
+    background-color: rgb(52, 155, 83);
+    color: white;
+    padding: 1% 2%;
+    border-radius: 0.8rem;
+    font-size: 2rem;
+    margin-top: 15%;
+    width: 80%;
+}
