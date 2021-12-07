@@ -218,3 +218,57 @@ button {
     margin-top: 15%;
     width: 80%;
 }
+
+@media (max-width: 740px){
+    header {
+        display: none;
+    }
+
+    section{
+        display: none;
+    }
+
+    svg{
+        display: none;
+    }
+
+    body{
+        padding: 7%;
+    }
+
+    .mobile{
+        color: white;
+        background-color: rgb(78, 90, 240);
+        padding: 2% 1%;
+        border-radius: 0.8rem;
+    }
+
+    .mobile-logo{
+        width: 60%;
+        margin-bottom: 5%;
+    }
+
+}
+
+
+@media (min-width: 741px) {
+    .mobile{
+        display: none;
+    }
+
+    .mobile-logo{
+        display: none;
+    }
+}
+
+.documentation{
+    margin-top: 10%;
+    padding: 1%;
+    border-radius: 0.8rem;
+}
+
+.docs-io{
+    background-color: rgb(78, 90, 240);
+    padding: 5%;
+    border-radius: 0.8rem;
+}
