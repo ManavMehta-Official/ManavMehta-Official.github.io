@@ -29,7 +29,7 @@ body{
 }
 
 .action{
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 4%;
     border: none;
     padding: 2% 3.5%;
@@ -40,7 +40,7 @@ body{
 
 .dev-docs{
     border: none;
-    margin-left: 2%;
+    margin-left: 5%;
     padding: 2% 3.5%;
     color: white;
     background-color: rgb(52, 155, 83);

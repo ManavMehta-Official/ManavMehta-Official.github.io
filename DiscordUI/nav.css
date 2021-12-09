@@ -354,7 +354,7 @@
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
-  background-color:#29aafe
+  background-color: rgb(59, 54, 54);
 }
 .social-icons.size-sm a
 {
@@ -363,35 +363,7 @@
   width:34px;
   font-size:14px
 }
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.instagram:hover
-{
-    background: #833ab4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-.social-icons .youtube:hover{
-    background-color: rgb(254, 0, 0);
-}
 
-.social-icons .github:hover{
-    background-color: rgb(26, 29, 32);
-}
-
-.social-icons .discord:hover{
-    background-color: rgb(76, 85, 232);
-}
-
-.social-icons .reddit:hover{
-    background-color: orangered;
-}
 
 @media (max-width:767px)
 {
