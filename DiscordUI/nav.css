@@ -3,6 +3,13 @@
     box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
 
+.gh{
+  background-color: black;
+  color: white;
+  padding: 1% 2%;
+  border-radius: 0.8rem;
+}
+
 .navbar-brand{
     font-size: 2rem;
     color: white !important;
@@ -10,6 +17,13 @@
 
 .nav-item{
     color: white !important;
+}
+
+.nav-dev{
+  background-color: #2C2F33;
+  color: white;
+  padding: 0.7% 2%;
+  border-radius: 0.8rem;
 }
 
 .nav-link{
@@ -25,7 +39,7 @@
 .download-btn{
     border: none;
     background-color: rgb(52, 155, 83) !important;
-    padding: 0.5% 1%;
+    padding: 1% 4%;
     border-radius: 0.8rem;
     color: #fff !important;
 }
