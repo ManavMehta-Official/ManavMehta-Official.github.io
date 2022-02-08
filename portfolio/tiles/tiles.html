@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+        <title>Manav Mehta</title>
+
+        <!--Meta-->
+        <meta charset="utf-8" />
+        <link rel="icon" href="favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!--Material-->
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura&family=PT+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+
+
+    <body>
+        
+        <section id="banner" class="tile">
+            <div class="row">
+                <div class="col-sm-6" style="padding: 2% 4%">
+                    <h1 style="color: #fff; font-size: 4.2rem">
+                        Hello there! <br> I'm Manav Mehta.
+                    </h1>
+                    <p class="sub-text" style="font-size: 1.6rem">
+                        I'm a full-stack developer specialising in Web Development<br> and UI/UX design.
+                    </p>
+
+                    <a href="#" style="text-decoration: none; color: #fff; font-size: 1.2rem">
+                        Look around <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="mx-auto text-center">
+
+                        <div class="wrapper">
+                            <div id="ios-nav">
+                                <i class="fas fa-globe fa-lg" style="color: #007bff;"></i>
+                                <a href="#" style="text-decoration: none; font-size: 1.2rem; z-index: 100;">manavmehta-official.github.io</a>
+                                <button class="contact-btn">Contact me</button>
+                            </div>
+                        </div>
+
+
+                        <img src="pfp-flip-bg.png" class="img-fluid mx-auto text-center" style="width: 60%; margin-top: -2%; z-index: 50">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tile-1" style="margin-top: 1%">
+            <div class="row mx-auto">
+
+                <div class="col-sm-4 mx-auto tile" id="about-me">
+                    <h1>About me.</h1><hr class="hr">
+                </div>
+
+                <div class="col-sm-4 mx-auto tile" id="work">
+                    <h1>Work & Projects</h1>
+
+                    <ul class="nav nav-pills mb-3" style="margin-top: 6%" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-ai-tab" data-bs-toggle="pill" data-bs-target="#pills-home" aria-controls="pills-home" aria-selected="true">AI</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" aria-controls="pills-profile" aria-selected="false">UI/UX</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-python-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" aria-controls="pills-contact" aria-selected="false">Python</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-app-tab" data-bs-toggle="pill" data-bs-target="#pills-app" aria-controls="pills-app" aria-selected="false">Apps</button>
+                          </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent" style="margin-top: 7%">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <h5>Artificial Intelligence based projects.</h5><hr>
+
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-sm-4 my-auto">
+                                        <img src="knk.jpeg" class="img-fluid" style="border-radius: 0.6rem">
+                                    </div>
+                                    <div class="col-sm-8 mx-auto">
+                                        <h6 style="font-weight: 700; margin-top: 1%">Knights & Knaves</h6>
+                                        <p class="description text-muted">Artificial Intelligence implemented in Knights & Knaves.</p>
+                                        <button class="view mx-auto text-center">View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-sm-4 mx-auto my-auto text-center">
+                                        <img src="ttt.png" class="img-fluid my-auto" style="border-radius: 0.6rem; width: 50%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h6 style="font-weight: 700; margin-top: 1%">TicTacToe</h6>
+                                        <p class="description text-muted">Artificial Intelligence for TicTacToe.</p>
+                                        <button class="view mx-auto text-center">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <h5>Web Development and UI/UX projects.</h5><hr>
+
+
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-sm-4 my-auto text-center">
+                                        <img src="tile.jpeg" class="img-fluid" style="border-radius: 0.6rem; width: 60%">
+                                    </div>
+                                    <div class="col-sm-8 mx-auto">
+                                        <h6 style="font-weight: 700; margin-top: 1%">Tiles</h6>
+                                        <p class="description text-muted">A personal portfolio webpage with the tile theme.</p>
+                                        <button class="viewing mx-auto text-center">Currently Viewing</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-sm-4 my-auto">
+                                        <img src="nodeinsta.png" class="img-fluid" style="border-radius: 0.6rem">
+                                    </div>
+                                    <div class="col-sm-8 mx-auto">
+                                        <h6 style="font-weight: 700; margin-top: 1%">NodeInsta</h6>
+                                        <p class="description text-muted">A personal portfolio webpage with the Instagram theme.</p>
+                                        <button class="view mx-auto text-center">View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            
+                            <h5>Python projects.</h5><hr>
+
+                            <div class="app-box">
+                            <div class="row">
+                                <div class="col-sm-4 my-auto text-center">
+                                    <img src="octave.png" class="img-fluid" style="border-radius: 0.6rem; width: 60%">
+                                </div>
+                                <div class="col-sm-8 mx-auto">
+                                    <h6 style="font-weight: 700; margin-top: 1%">Octave</h6>
+                                    <p class="description text-muted">A music based discord bot with super cool features!</p>
+                                    <button class="view mx-auto text-center">View</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="app-box">
+                            <div class="row">
+                                <div class="col-sm-4 my-auto text-center">
+                                    <img src="logo.png" class="img-fluid" style="border-radius: 0.6rem; width: 60%">
+                                </div>
+                                <div class="col-sm-8 mx-auto">
+                                    <h6 style="font-weight: 700; margin-top: 1%">DiscordUI Extension</h6>
+                                    <p class="description text-muted">Extension to convert entrar into discord!</p>
+                                    <button class="view mx-auto text-center">View</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+
+
+                        <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab">
+                            <h5>App development projects.</h5><hr>
+
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-sm-4 my-auto">
+                                        <img src="fiftygram.png" class="img-fluid" style="border-radius: 0.6rem">
+                                    </div>
+                                    <div class="col-sm-8 mx-auto">
+                                        <h6 style="font-weight: 700; margin-top: 1%">FiftyGram</h6>
+                                        <p class="description text-muted">An IOS app with additional filters for Instagram.</p>
+                                        <button class="view mx-auto text-center">View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-sm-4 my-auto">
+                                        <img src="pokedex.png" class="img-fluid" style="border-radius: 0.6rem">
+                                    </div>
+                                    <div class="col-sm-8 mx-auto">
+                                        <h6 style="font-weight: 700; margin-top: 1%">Pokedex</h6>
+                                        <p class="description text-muted">An IOS app for viewing information about pokemons!</p>
+                                        <button class="view mx-auto text-center">View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-sm-4 my-auto text-center">
+                                        <img src="notes.png" class="img-fluid" style="border-radius: 0.6rem; width: 50%">
+                                    </div>
+                                    <div class="col-sm-8 mx-auto">
+                                        <h6 style="font-weight: 700; margin-top: 1%">NoteBook</h6>
+                                        <p class="description text-muted">A personal note-taking app with voiceover feature!</p>
+                                        <button class="depricated mx-auto text-center">Depricated</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3 mx-auto tile" id="social">
+                    <div id="rep" class="tile" style="padding: 3% 5%">
+                        <h4 style="color: white;"><i class="fab fa-github fa-lg"></i> Popular Repositories</h4><hr style="color: white">
+                        <div class="rep-box">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <a href="#" style="text-decoration: none; color:#007bff; font-weight: 700">TicTacToe-AI</a>
+                                </div>
+                                <div class="col-sm-4 text-center mx-auto">
+                                    <p class="tag text-muted mx-auto">Public</p>
+                                </div>
+                                <p class="text-muted" style="font-size: 0.9rem">Implementation of Artificial Intelligence in the classic game of TicTacToe.</p>
+                                <p class="text-muted" style="font-size: 0.9rem"><i class="fas fa-circle py"></i> Python</p>
+                            </div>
+                        </div>
+
+                        <div class="rep-box">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <a href="#" style="text-decoration: none; color:#007bff; font-weight: 700">DiscordUI</a>
+                                </div>
+                                <div class="col-sm-4 text-center mx-auto">
+                                    <p class="tag text-muted mx-auto">Public</p>
+                                </div>
+                                <p class="text-muted" style="font-size: 0.9rem">Chrome Extension to convert Entrar into Discord!</p>
+                                <p class="text-muted" style="font-size: 0.9rem"><i class="fas fa-circle py"></i> Python  <i class="fas fa-circle css"></i> CSS <i class="fas fa-circle js"></i> JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="tile-2" style="margin-top: 1%;">
+            <div class="row">
+                <div class="col-sm-4 tile mx-auto" id="skills">
+                    <h1>Skillset.</h1>
+
+                    <div class="app-box">
+                        <div class="row">
+                            <div class="col-sm-4 my-auto text-center">
+                                <i class="fab fa-html5 fa-3x"></i>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <h6 style="font-weight: 700; margin-top: 1%">HTML</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="app-box">
+                        <div class="row">
+                            <div class="col-sm-4 my-auto text-center">
+                                <i class="fab fa-css3-alt fa-3x"></i>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <h6 style="font-weight: 700; margin-top: 1%">CSS</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="app-box">
+                        <div class="row">
+                            <div class="col-sm-4 my-auto text-center">
+                                <i class="fab fa-uikit fa-3x"></i>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <h6 style="font-weight: 700; margin-top: 1%">UI/UX</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="app-box">
+                        <div class="row">
+                            <div class="col-sm-4 my-auto text-center">
+                                <i class="fab fa-python fa-3x"></i>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <h6 style="font-weight: 700; margin-top: 1%">Python</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="app-box">
+                        <div class="row">
+                            <div class="col-sm-4 my-auto text-center">
+                                <i class="fab fa-js-square fa-3x"></i>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <h6 style="font-weight: 700; margin-top: 1%">JavaScript</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="app-box">
+                        <div class="row">
+                            <div class="col-sm-4 my-auto text-center">
+                                <i class="fab fa-swift fa-3x"></i>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <h6 style="font-weight: 700; margin-top: 1%">Swift</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="app-box">
+                        <div class="row">
+                            <div class="col-sm-4 my-auto text-center">
+                                <i class="fab fa-react fa-3x"></i>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <h6 style="font-weight: 700; margin-top: 1%">React.js</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-7 mx-auto">
+                    <div class="contact tile">
+                        <div class="row mx-auto" style="padding: 2%">
+                            <div class="col-sm-4 my-auto">
+                               <h1 style="color:#fff; font-size: 3.5rem">Connect <br>with me. </h1>
+                            </div>
+                            <div class="col-sm-8 mx-auto">
+                                <div class="form">
+                                    <h1>Contact Form</h1>
+                                    <div class="input-group mb-3" style="margin-top: 5%;">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                                        <input type="text" class="form-control" placeholder="Full name" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+                                        <input type="text" class="form-control" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-paper-plane"></i></span>
+                                        <input type="text" class="form-control" placeholder="Message Subject" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-text bug-desc-icon"><i class="fas fa-comments"></i></span>
+                                        <textarea class="form-control bug-desc" name="message" type="text" placeholder="Your message" aria-label="With textarea" required></textarea>
+                                    </div>  
+                                    <div class="mx-auto text-center">
+                                        <button class="submit mx-auto text-center">Send Message</button> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer tile" style="margin-top: 5%; padding: 5%">
+                        <h2><i class="fas fa-link"></i> Socials </h2><hr>
+                        <button class="button yt"><i class="fab fa-youtube"></i> YouTube</button>
+                        <button class="button twitter"><i class="fab fa-twitter"></i> Twitter</button>
+                        <button class="button insta"><i class="fab fa-instagram"></i> Instagram</button>
+                        <button class="button spotify"><i class="fab fa-spotify"></i> Spotify</button>
+                        <button class="button github"><i class="fab fa-github"></i> Github</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="index.js"></script>
+            <script>
+                const tooltips = document.querySelectorAll('.tt')
+                tooltips.forEach(t => {
+                    new bootstrap.Tooltip(t)
+                })
+            </script>
+            <script type="text/javascript" src="index.js"></script>
+            <script src="https://kit.fontawesome.com/e4e5626c83.js" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    </body>
+
+
+    
+</html>

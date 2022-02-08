@@ -1,0 +1,243 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 1%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: rgb(10 13 21);
+}
+
+.tile{
+    border-radius: 0.6rem;
+}
+
+#banner{
+    background: #ff6e7f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sub-text{
+    margin-top: 7%;
+    color: rgba(255, 255, 255, 0.63);
+    margin-bottom: 15%;
+}
+
+.nav-link{
+    margin-right: 35%;
+}
+
+#ios-nav{
+    background-color: white;
+    border-radius: 0.6rem;
+    padding: 1% 0%;
+}
+
+.wrapper{
+    padding: 0% 5%;
+    margin-top: 8%;
+}
+
+.contact-btn{
+    border: 2px solid #007bff;
+    background-color: white;
+    border-radius: 0.6rem;
+    color: #007bff;
+    padding: 0.5% 1%;
+    font-weight: 500;
+    margin-left: 50%;
+}
+
+
+#about-me{
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1% 2%;
+    color: white;
+}
+
+#work{
+    background: #642B73;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding: 1% 2%;
+}
+
+.hr{
+    color: white;
+    opacity: 100%;
+    width: 14rem;
+    height: 0.7rem !important;
+    margin-top: -2%;
+}
+
+.nav-link{
+    background-color: #fff !important;
+    color: black !important;
+    font-weight: 600;
+    border-radius: 80rem !important;
+}
+
+#pills-web-tab{
+    margin-left: 10%;
+}
+
+#pills-python-tab{
+    margin-left: 15%;
+}
+
+#pills-app-tab{
+    margin-left: 30%;
+}
+
+.app-box{
+    background-color: white;
+    color: black;
+    margin-top: 5%;
+    border-radius: 0.4rem;
+    padding: 3% 3%;
+}
+
+.description{
+    font-size: 0.8rem;
+}
+
+.view{
+    border: none;
+    background-color: #0059ff;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 1% 4%;
+}
+
+.viewing{
+    background-color: rgb(29, 177, 29);
+    border: none;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 1% 4%;
+}
+
+.depricated{
+    background-color: rgb(211, 12, 12);
+    border: none;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 1% 4%;
+    cursor: not-allowed;
+}
+
+#skills{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+    color: white;
+    padding: 1% 2%;
+}
+
+#skills .fab{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#rep{
+    background: #21262d;  /* fallback for old browsers */ 
+}
+
+.contact{
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.form{
+    background-color: white;
+    padding: 2%;
+    border-radius: 0.6rem;
+}
+
+.submit{
+    border: none;
+    background-color: #0059ff;
+    color: white;
+    padding: 1% 5%;
+    border-radius: 0.4rem;
+    margin-top: 5%;
+}
+
+.rep-box{
+    background-color: #21262d;
+    color: white;
+    margin-top: 5%;
+    border-radius: 0.4rem;
+    padding: 3% 3%;
+    border: 1px solid #595a5a
+}
+
+.fa-github-square{
+    color: black !important;
+    background-color: white;
+}
+
+.tag{
+    border: 1px solid #595a5a;
+    border-radius: 5rem;
+    padding: 1% -2%;
+}
+
+.py{
+    color: #356cd3
+}
+
+.css{
+    color: rgb(90, 9, 90)
+}
+
+.js{
+    color: rgb(247, 231, 14);
+}
+
+.button{
+    border: none;
+    font-weight: 700;
+    border-radius: 0.6rem;
+}
+
+.yt{
+    background-color: red;
+    color: white;
+}
+
+.insta{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.spotify{
+    background-color: #1DB954;
+    color: black;
+}
+.twitter{
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.github{
+    background-color: black;
+    color: white;
+}
