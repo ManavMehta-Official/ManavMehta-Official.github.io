@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  @apply bg-slate-200/80 dark:bg-[#10100e];
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.elevated {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
